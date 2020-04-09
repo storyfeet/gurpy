@@ -1,3 +1,4 @@
 <rect {{xywh 0 0 .w .h}} {{fl_stk "white" "black" 5}} />
 {{$title := b_sel .data.params (ccat .name "(" .data.params ")" ) .name }}
-<text x="30" y="20" {{fnt (mul .w 0.1) "Arial" -}} >{{$title}}</text>
+{{$tit_size:= mul .w (b_sel (lt (len $title) 18) 0.09 0.07)}}
+<text x="30px" y="{{mul .h 0.2}}px" {{fnt $tit_size "Arial" -}} font-weight="bold">{{$title}}</text>

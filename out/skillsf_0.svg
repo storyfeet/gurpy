@@ -1,0 +1,73 @@
+<?xml version="1.0" ?>
+<svg width="2480px" height="3508px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <g transform="translate(20,20) " >
+    <rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
+
+
+<text x="30px" y="138.72px" font-size="109.8px" font-family="Arial" font-weight="bold">Tech Level(Level)</text>
+
+  </g>
+  <g transform="translate(1240,20) " >
+    <rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
+
+
+<text x="30px" y="138.72px" font-size="85.4px" font-family="Arial" font-weight="bold">Language(Lang,Level)</text>
+
+  </g>
+  <g transform="translate(20,713.6) " >
+    <rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
+
+
+<text x="30px" y="138.72px" font-size="85.4px" font-family="Arial" font-weight="bold">Literacy(Lang,Level)</text>
+
+  </g>
+  <g transform="translate(1240,713.6) " >
+    <rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
+
+
+<text x="30px" y="138.72px" font-size="109.8px" font-family="Arial" font-weight="bold">Wealth(Level)</text>
+
+  </g>
+  <g transform="translate(20,1407.2) " >
+    <rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
+
+
+<text x="30px" y="138.72px" font-size="85.4px" font-family="Arial" font-weight="bold">Reputation(Level,Specifics)</text>
+
+  </g>
+  <g transform="translate(1240,1407.2) " >
+    <rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
+
+
+<text x="30px" y="138.72px" font-size="85.4px" font-family="Arial" font-weight="bold">Social Status(Level)</text>
+
+  </g>
+  <g transform="translate(20,2100.8) " >
+    <rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
+
+
+<text x="30px" y="138.72px" font-size="85.4px" font-family="Arial" font-weight="bold">Acute Senses(Level,Sense)</text>
+
+  </g>
+  <g transform="translate(1240,2100.8) " >
+    <rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
+
+
+<text x="30px" y="138.72px" font-size="109.8px" font-family="Arial" font-weight="bold">Ambidextrous</text>
+
+  </g>
+  <g transform="translate(20,2794.4) " >
+    <rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
+
+
+<text x="30px" y="138.72px" font-size="109.8px" font-family="Arial" font-weight="bold">Animal Empathy</text>
+
+  </g>
+  <g transform="translate(1240,2794.4) " >
+    <rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
+
+
+<text x="30px" y="138.72px" font-size="109.8px" font-family="Arial" font-weight="bold">Catfall</text>
+
+  </g>
+</svg>

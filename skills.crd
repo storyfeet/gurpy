@@ -1,6 +1,6 @@
-"Teck Level":
+"Tech Level":
 .params:Level
-.range:-1..1
+.range:"-1..1"
 .cost:"5*<Level>"
 .tx:"If <Level> is  Positive. You are a tech wizard. If it's negative. You pre primitive and know little of how to use anything above your level."
 
@@ -20,7 +20,9 @@ For other Lang:
 Wealth:
 .params:"Level"
 .cost:"4 * sqr(Level-2)"
-tx:"Logarithmic: for each level, you can ignore the cost of purchases below "10^(Level)"
+.tx:"Logarithmic: for each level, you can ignore the cost of purchases below \"10^(Level)\""
+
+
 
 Reputation:
 .params:"Level,Specifics"
@@ -31,7 +33,7 @@ Reputation:
 "Social Status":
 .cost:"5*Level"
 .params:"Level"
-tx:Level -- -2:Serf
+.tx:"Level -- -2:Serf
 0:Average Free Person
 1:Low Ruling Class
 8:Emporer"
