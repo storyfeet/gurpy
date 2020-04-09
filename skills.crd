@@ -1,0 +1,55 @@
+"Teck Level":
+.params:Level
+.range:-1..1
+.cost:"5*<Level>"
+.tx:"If <Level> is  Positive. You are a tech wizard. If it's negative. You pre primitive and know little of how to use anything above your level."
+
+Language:
+.params:"Lang,Level"
+.tx:"(1 Lang is native and free.)
+Other languages:
+*Broken:1, *Accented:2, Native:3"
+
+Literacy:
+.params:"Lang,Level"
+.tx:"For Native Lang:
+*None:-3, *Broken:-2, *Accented:-1
+For other Lang:
+*Broken:1, *Accented:2, *Native:3"
+
+Wealth:
+.params:"Level"
+.cost:"4 * sqr(Level-2)"
+tx:"Logarithmic: for each level, you can ignore the cost of purchases below "10^(Level)"
+
+Reputation:
+.params:"Level,Specifics"
+.cost:"<Level>"
+.range:"-5..5"
+.tx:"What are you known for? You must give specifics. How do people react to your  reputation +<Level> (between -5 to 5) on reaction rolls."
+
+"Social Status":
+.cost:"5*Level"
+.params:"Level"
+tx:Level -- -2:Serf
+0:Average Free Person
+1:Low Ruling Class
+8:Emporer"
+
+"Acute Senses":
+.cost:"2*Level"
+.params:"Level,Sense"
+.tx:"+<Level> Perception rolls in your chosen Sense"
+
+Ambidextrous:
+.cost:5
+.tx:"You can work or fight with either hand, helpful of one of your hand's is stuck."
+
+"Animal Empathy":
+.cost:5
+.tx:"You are very good at reading animal emotions and tells. You can also use your influence on animals as if human."
+
+Catfall:
+.cost:10
+.tx:"Treat falls as 5 metres less. Roll Dx to half any fall damage"
+
