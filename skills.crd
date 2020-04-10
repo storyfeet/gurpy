@@ -1,47 +1,51 @@
-"Tech Level":
-.params:Level
-.range:"-1..1"
-.cost:"5*<Level>"
-.tx:"If <Level> is  Positive. You are a tech wizard. If it's negative. You pre primitive and know little of how to use anything above your level."
+"Tech Wizard":
+.cost:"4,10"
+.tx:If it's negative. You pre primitive and know little of how to use anything above your level."
 
-Language:
-.cost:"<Level>"
-.params:"Lang,Level"
-.tx:"(1 Lang is native and free.)
-Other languages:
-*Broken:1, *Accented:2, Native:3"
+Primative:
+.cost:-5
+.tx:You do not understand and cannot use modern technology.
 
-Literacy:
-.params:"Lang,Level"
-.tx:"For Native Lang:
-*None:-3, *Broken:-2, *Accented:-1
-For other Lang:
-*Broken:1, *Accented:2, *Native:3"
+Second Language:
+.cost:"3,6,9"
+.params:"Name"
+.tx:"For each level, choose a language from the list of common languages"
 
-Wealth:
-.params:"Level"
-.cost:"4 * sqr(Level-2)"
-.tx:"Logarithmic: for each level, you can ignore the cost of purchases below \"10^(Level)\""
+2*Poverty:
+.gain:15
+.exclude:Wealth
+.tx:"You start unable to buy anything equipment or clothes. You must track every penny, "
 
+"Wealth":
+.cost:"8,15,35"
+.exclure:Poverty
+.tx:"The Avg person starts with £500 and can ignore the cost of purchases below £10.
+For each level, you can add a zero to both those numbers.
 
+Good Reputation:
+.params:"Trait"
+.cost:"2,4,6"
+.tx:"You must specify the trait. 
 
-Reputation:
-.params:"Level,Specifics"
-.cost:"<Level>"
-.range:"-5..5"
-.tx:"What are you known for? You must give specifics. How do people react to your  reputation +<Level> (between -5 to 5) on reaction rolls."
+"Bad Reputation":
+.params:"Trait"
+.gain:"4,6"
+.tx:"You must specify the trait.
 
-"Social Status":
-.cost:"5*Level"
-.params:"Level"
-.tx:"Level -- -2:Serf
-0:Average Free Person
-1:Low Ruling Class
-8:Emporer"
+"Slave":
+.params:"Owner"
+.gain:10
+.tx:You must give info about your owner. 
+.excludes:"Wealth,Social Standing"
+
+"Social Standing":
+.cost:"10,25,40,70"
+.tx:"Average person is a free person of no significance,
+Above that: *Landowner *Lord *King *Emporer
 
 "Acute Senses":
-.cost:"2*Level"
-.params:"Level,Sense"
+.cost:"3,6,10"
+.params:"Sense"
 .tx:"+<Level> Perception rolls in your chosen Sense"
 
 Ambidextrous:
@@ -53,8 +57,8 @@ Ambidextrous:
 .tx:"You are very good at reading animal emotions and tells. You can also use your influence on animals as if human."
 
 Catfall:
-.cost:10
-.tx:"Treat falls as 5 metres less. Roll Dx to half any fall damage"
+.cost:"5,10,15"
+.tx:"Treat falls as (3/6/10) and gain dice against fall damage"
 
 "Combat Reflexes":
 .cost:15
@@ -64,9 +68,64 @@ Catfall:
 Never Freeze
 +6 to recover Surprise and Stun"
 
-"Danger Sense":
-.cost:15
+Clumsy:
+.gain(5,10,20):
+.tx:You knock things off of
+.excludes:Stealth
+
+Stealth:
+.cost:"3,5,10"
+.tx:
+
+"Threat Aware":
+.cost:"4,6,12"
 .passive:true
-.tx:"Super alert to impending danger, gm rolls secretly against your percetion whenever a threat is possible to warn you"
+.tx:"Gm rolls secretly against the \"stealth\" of any coming danger"
+
+Daredavil:
+.cost:15
+.tx:"Whenever you take unnecessary risks +1 to all skill rolls"
+
+Empathy:
+.cost:15
+.tx:"You can sense other peoples emotions.
++2 for perception on people.
++1 for persuasion
+
+"Block":
+.fight:true
+.cost:5
+.tx:"+1 to Shield blocks"
+
+"Evade":
+.fight:true
+.cost:15
+.tx:"+1 to evade rolls"
+
+"Parry":
+.fight:true
+.cost:15
+tx:"Successfull blocks give you a free counter attack"
+
+Flexible:
+.cost:5
+.tx:"Squeeze through small gaps
++2 to escape restraints"
+
+Climb:
+.cost:5
+.tx:"+2 to any clime situations."
+
+Jump:
+.cost:5
+.tx:"+2 to jump distances"
+
+Luck:
+.cost:15
+.tx:"Re-roll any '2's "
+
+"Night Vision":
+cost:10
+.tx:"Treat dark as dim and dim as normal light"
 
 
