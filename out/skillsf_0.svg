@@ -5,21 +5,19 @@
 
 
 
-<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Tech Level(Level)</text>
+<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Tech Wizard</text>
 
-    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">If &lt;Level&gt; is  Positive. You are a</text>
+    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">If it&apos;s negative. You pre primitive</text>
 
-    <text x="610px" y="269.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">tech wizard. If it&apos;s negative. You pre</text>
+    <text x="610px" y="269.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">and know little of how to use anything</text>
 
-    <text x="610px" y="330.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">primitive and know little of how to</text>
-
-    <text x="610px" y="391.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">use anything above your level.</text>
+    <text x="610px" y="330.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">above your level.</text>
 
 
 
 
 
-<text x="20px" y="624.24px" font-size="61px" font-family="Arial" >cost = 5*&lt;Level&gt;</text>
+<text x="20px" y="624.24px" font-size="61px" font-family="Arial" >cost = 4,10</text>
 
 
   </g>
@@ -28,19 +26,17 @@
 
 
 
-<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Language(Lang,Level)</text>
+<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Primative</text>
 
-    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">(1 Lang is native and free.)</text>
+    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">You do not understand and cannot use</text>
 
-    <text x="610px" y="269.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">Other languages:</text>
-
-    <text x="610px" y="330.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">*Broken:1, *Accented:2, Native:3</text>
+    <text x="610px" y="269.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">modern technology.</text>
 
 
 
 
 
-<text x="20px" y="624.24px" font-size="61px" font-family="Arial" >cost = &lt;Level&gt;</text>
+<text x="20px" y="624.24px" font-size="61px" font-family="Arial" >cost = -5</text>
 
 
   </g>
@@ -49,19 +45,17 @@
 
 
 
-<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Literacy(Lang,Level)</text>
+<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Second Language(Name)</text>
 
-    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">For Native Lang:</text>
+    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">For each level, choose a language from</text>
 
-    <text x="610px" y="269.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">*None:- 3, *Broken:- 2, *Accented:- 1</text>
-
-    <text x="610px" y="330.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">For other Lang:</text>
-
-    <text x="610px" y="391.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">*Broken:1, *Accented:2, *Native:3</text>
+    <text x="610px" y="269.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">the list of common languages</text>
 
 
 
 
+
+<text x="20px" y="624.24px" font-size="61px" font-family="Arial" >cost = [Number(Number { n: U(3) }), Number(Number { n: U(6) }), Number(Number { n: U(9) })]</text>
 
 
   </g>
@@ -70,19 +64,17 @@
 
 
 
-<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Wealth(Level)</text>
+<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Poverty</text>
 
-    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">Logarithmic: for each level, you can</text>
+    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">You start unable to buy anything</text>
 
-    <text x="610px" y="269.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">ignore the cost of purchases below</text>
+    <text x="610px" y="269.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">equipment or clothes. You must track</text>
 
-    <text x="610px" y="330.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">&quot;10^(Level)&quot;</text>
-
-
+    <text x="610px" y="330.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">every penny, </text>
 
 
 
-<text x="20px" y="624.24px" font-size="61px" font-family="Arial" >cost = 4 * sqr(Level-2)</text>
+
 
 
   </g>
@@ -91,21 +83,17 @@
 
 
 
-<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Reputation(Level,Specifics)</text>
+<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Poverty</text>
 
-    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">What are you known for? You must give</text>
+    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">You start unable to buy anything</text>
 
-    <text x="610px" y="269.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">specifics. How do people react to your</text>
+    <text x="610px" y="269.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">equipment or clothes. You must track</text>
 
-    <text x="610px" y="330.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle"> reputation +&lt;Level&gt; (between - 5 to</text>
-
-    <text x="610px" y="391.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">5) on reaction rolls.</text>
+    <text x="610px" y="330.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">every penny, </text>
 
 
 
 
-
-<text x="20px" y="624.24px" font-size="61px" font-family="Arial" >cost = &lt;Level&gt;</text>
 
 
   </g>
@@ -114,21 +102,23 @@
 
 
 
-<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Social Status(Level)</text>
+<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Wealth</text>
 
-    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">Level - -  - 2:Serf</text>
+    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">The Avg person starts with £500 and</text>
 
-    <text x="610px" y="269.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">0:Average Free Person</text>
+    <text x="610px" y="269.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">can ignore the cost of purchases below</text>
 
-    <text x="610px" y="330.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">1:Low Ruling Class</text>
+    <text x="610px" y="330.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">£10.</text>
 
-    <text x="610px" y="391.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">8:Emporer</text>
+    <text x="610px" y="391.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">For each level, you can add a zero to</text>
+
+    <text x="610px" y="452.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">both those numbers.</text>
 
 
 
 
 
-<text x="20px" y="624.24px" font-size="61px" font-family="Arial" >cost = 5*Level</text>
+<text x="20px" y="624.24px" font-size="61px" font-family="Arial" >cost = 8,15,35</text>
 
 
   </g>
@@ -137,17 +127,15 @@
 
 
 
-<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Acute Senses(Level,Sense)</text>
+<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Good Reputation(Trait)</text>
 
-    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">+&lt;Level&gt; Perception rolls in your</text>
-
-    <text x="610px" y="269.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">chosen Sense</text>
+    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">You must specify the trait.</text>
 
 
 
 
 
-<text x="20px" y="624.24px" font-size="61px" font-family="Arial" >cost = 2*Level</text>
+<text x="20px" y="624.24px" font-size="61px" font-family="Arial" >cost = 2,4,6</text>
 
 
   </g>
@@ -156,19 +144,13 @@
 
 
 
-<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Ambidextrous</text>
+<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Bad Reputation(Trait)</text>
 
-    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">You can work or fight with either</text>
-
-    <text x="610px" y="269.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">hand, helpful of one of your hand&apos;s is</text>
-
-    <text x="610px" y="330.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">stuck.</text>
+    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">You must specify the trait.</text>
 
 
 
 
-
-<text x="20px" y="624.24px" font-size="61px" font-family="Arial" >cost = 5</text>
 
 
   </g>
@@ -177,19 +159,13 @@
 
 
 
-<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Animal Empathy</text>
+<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Slave(Owner)</text>
 
-    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">You are very good at reading animal</text>
-
-    <text x="610px" y="269.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">emotions and tells. You can also use</text>
-
-    <text x="610px" y="330.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">your influence on animals as if human.</text>
+    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">You must give info about your owner.</text>
 
 
 
 
-
-<text x="20px" y="624.24px" font-size="61px" font-family="Arial" >cost = 5</text>
 
 
   </g>
@@ -198,17 +174,21 @@
 
 
 
-<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Catfall</text>
+<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Social Standing</text>
 
-    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">Treat falls as 5 metres less. Roll Dx</text>
+    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">Average person is a free person of no</text>
 
-    <text x="610px" y="269.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">to half any fall damage</text>
+    <text x="610px" y="269.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">significance,</text>
+
+    <text x="610px" y="330.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">Above that: *Landowner *Lord *King</text>
+
+    <text x="610px" y="391.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">*Emporer.</text>
 
 
 
 
 
-<text x="20px" y="624.24px" font-size="61px" font-family="Arial" >cost = 10</text>
+<text x="20px" y="624.24px" font-size="61px" font-family="Arial" >cost = [Number(Number { n: U(10) }), Number(Number { n: U(25) }), Number(Number { n: U(40) }), Number(Number { n: U(70) })]</text>
 
 
   </g>

@@ -1,0 +1,145 @@
+<?xml version="1.0" ?>
+<svg width="2480px" height="3508px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <g transform="translate(20,20) " >
+    <rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
+
+
+
+<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Block</text>
+
+    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">+1 to Shield blocks</text>
+
+
+
+
+
+<text x="20px" y="624.24px" font-size="61px" font-family="Arial" >cost = 5</text>
+
+
+  </g>
+  <g transform="translate(1240,20) " >
+    <rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
+
+
+
+<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Evade</text>
+
+    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">+1 to evade rolls</text>
+
+
+
+
+
+<text x="20px" y="624.24px" font-size="61px" font-family="Arial" >cost = 15</text>
+
+
+  </g>
+  <g transform="translate(20,713.6) " >
+    <rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
+
+
+
+<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Parry</text>
+
+    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">Successfull blocks give you a free</text>
+
+    <text x="610px" y="269.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">counter attack</text>
+
+
+
+
+
+<text x="20px" y="624.24px" font-size="61px" font-family="Arial" >cost = 15</text>
+
+
+  </g>
+  <g transform="translate(1240,713.6) " >
+    <rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
+
+
+
+<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Flexible</text>
+
+    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">Squeeze through small gaps</text>
+
+    <text x="610px" y="269.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">+2 to escape restraints</text>
+
+
+
+
+
+<text x="20px" y="624.24px" font-size="61px" font-family="Arial" >cost = 5</text>
+
+
+  </g>
+  <g transform="translate(20,1407.2) " >
+    <rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
+
+
+
+<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Climb</text>
+
+    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">+2 to any clime situations.</text>
+
+
+
+
+
+<text x="20px" y="624.24px" font-size="61px" font-family="Arial" >cost = 5</text>
+
+
+  </g>
+  <g transform="translate(1240,1407.2) " >
+    <rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
+
+
+
+<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Jump</text>
+
+    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">+2 to jump distances</text>
+
+
+
+
+
+<text x="20px" y="624.24px" font-size="61px" font-family="Arial" >cost = 5</text>
+
+
+  </g>
+  <g transform="translate(20,2100.8) " >
+    <rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
+
+
+
+<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Luck</text>
+
+    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">Re- roll any &apos;2&apos;s</text>
+
+
+
+
+
+<text x="20px" y="624.24px" font-size="61px" font-family="Arial" >cost = 15</text>
+
+
+  </g>
+  <g transform="translate(1240,2100.8) " >
+    <rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
+
+
+
+<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Night Vision</text>
+
+    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">Treat dark as dim and dim as normal</text>
+
+    <text x="610px" y="269.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">light</text>
+
+
+
+
+
+<text x="20px" y="624.24px" font-size="61px" font-family="Arial" >cost = 10</text>
+
+
+  </g>
+</svg>

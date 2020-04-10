@@ -1,13 +1,13 @@
 "Tech Wizard":
 .cost:"4,10"
-.tx:If it's negative. You pre primitive and know little of how to use anything above your level."
+.tx:"If it's negative. You pre primitive and know little of how to use anything above your level."
 
 Primative:
 .cost:-5
-.tx:You do not understand and cannot use modern technology.
+.tx:"You do not understand and cannot use modern technology."
 
-Second Language:
-.cost:"3,6,9"
+"Second Language":
+.cost:[3,6,9]
 .params:"Name"
 .tx:"For each level, choose a language from the list of common languages"
 
@@ -20,28 +20,28 @@ Second Language:
 .cost:"8,15,35"
 .exclure:Poverty
 .tx:"The Avg person starts with £500 and can ignore the cost of purchases below £10.
-For each level, you can add a zero to both those numbers.
+For each level, you can add a zero to both those numbers."
 
-Good Reputation:
+"Good Reputation":
 .params:"Trait"
 .cost:"2,4,6"
-.tx:"You must specify the trait. 
+.tx:"You must specify the trait."
 
 "Bad Reputation":
 .params:"Trait"
 .gain:"4,6"
-.tx:"You must specify the trait.
+.tx:"You must specify the trait."
 
 "Slave":
 .params:"Owner"
 .gain:10
-.tx:You must give info about your owner. 
-.excludes:"Wealth,Social Standing"
+.tx:"You must give info about your owner."
+.excludes:[Wealth,"Social Standing"]
 
 "Social Standing":
-.cost:"10,25,40,70"
+.cost:[10,25,40,70]
 .tx:"Average person is a free person of no significance,
-Above that: *Landowner *Lord *King *Emporer
+Above that: *Landowner *Lord *King *Emporer."
 
 "Acute Senses":
 .cost:"3,6,10"
@@ -69,13 +69,13 @@ Never Freeze
 +6 to recover Surprise and Stun"
 
 Clumsy:
-.gain(5,10,20):
-.tx:You knock things off of
+.gain:[5,10,20]
+.tx:"You knock things off of stuff"
 .excludes:Stealth
 
 Stealth:
 .cost:"3,5,10"
-.tx:
+.tx:"Can hide from other people as needed, gain extra dice if terrain is good for hiding"
 
 "Threat Aware":
 .cost:"4,6,12"
@@ -90,7 +90,7 @@ Empathy:
 .cost:15
 .tx:"You can sense other peoples emotions.
 +2 for perception on people.
-+1 for persuasion
++1 for persuasion"
 
 "Block":
 .fight:true
@@ -105,7 +105,7 @@ Empathy:
 "Parry":
 .fight:true
 .cost:15
-tx:"Successfull blocks give you a free counter attack"
+.tx:"Successfull blocks give you a free counter attack"
 
 Flexible:
 .cost:5
@@ -122,10 +122,10 @@ Jump:
 
 Luck:
 .cost:15
-.tx:"Re-roll any '2's "
+.tx:"Re-roll any '2's"
 
 "Night Vision":
-cost:10
+.cost:10
 .tx:"Treat dark as dim and dim as normal light"
 
 

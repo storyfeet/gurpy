@@ -5,6 +5,86 @@
 
 
 
+<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Acute Senses(Sense)</text>
+
+    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">+&lt;Level&gt; Perception rolls in your</text>
+
+    <text x="610px" y="269.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">chosen Sense</text>
+
+
+
+
+
+<text x="20px" y="624.24px" font-size="61px" font-family="Arial" >cost = 3,6,10</text>
+
+
+  </g>
+  <g transform="translate(1240,20) " >
+    <rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
+
+
+
+<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Ambidextrous</text>
+
+    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">You can work or fight with either</text>
+
+    <text x="610px" y="269.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">hand, helpful of one of your hand&apos;s is</text>
+
+    <text x="610px" y="330.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">stuck.</text>
+
+
+
+
+
+<text x="20px" y="624.24px" font-size="61px" font-family="Arial" >cost = 5</text>
+
+
+  </g>
+  <g transform="translate(20,713.6) " >
+    <rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
+
+
+
+<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Animal Empathy</text>
+
+    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">You are very good at reading animal</text>
+
+    <text x="610px" y="269.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">emotions and tells. You can also use</text>
+
+    <text x="610px" y="330.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">your influence on animals as if human.</text>
+
+
+
+
+
+<text x="20px" y="624.24px" font-size="61px" font-family="Arial" >cost = 5</text>
+
+
+  </g>
+  <g transform="translate(1240,713.6) " >
+    <rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
+
+
+
+<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Catfall</text>
+
+    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">Treat falls as (3/6/10) and gain dice</text>
+
+    <text x="610px" y="269.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">against fall damage</text>
+
+
+
+
+
+<text x="20px" y="624.24px" font-size="61px" font-family="Arial" >cost = 5,10,15</text>
+
+
+  </g>
+  <g transform="translate(20,1407.2) " >
+    <rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
+
+
+
 <text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Combat Reflexes</text>
 
     <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">You have extraordinry reactions for</text>
@@ -27,24 +107,96 @@
 
 
   </g>
-  <g transform="translate(1240,20) " >
+  <g transform="translate(1240,1407.2) " >
     <rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
 
 
 
-<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Danger Sense</text>
+<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Clumsy</text>
 
-    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">Super alert to impending danger, gm</text>
+    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">You knock things off of stuff</text>
 
-    <text x="610px" y="269.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">rolls secretly against your percetion</text>
 
-    <text x="610px" y="330.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">whenever a threat is possible to warn</text>
 
-    <text x="610px" y="391.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">you</text>
+
+
+
+  </g>
+  <g transform="translate(20,2100.8) " >
+    <rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
+
+
+
+<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Stealth</text>
+
+    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">Can hide from other people as needed,</text>
+
+    <text x="610px" y="269.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">gain extra dice if terrain is good for</text>
+
+    <text x="610px" y="330.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">hiding</text>
+
+
+
+
+
+<text x="20px" y="624.24px" font-size="61px" font-family="Arial" >cost = 3,5,10</text>
+
+
+  </g>
+  <g transform="translate(1240,2100.8) " >
+    <rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
+
+
+
+<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Threat Aware</text>
+
+    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">Gm rolls secretly against the</text>
+
+    <text x="610px" y="269.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">&quot;stealth&quot; of any coming danger</text>
 
 
 
 <rect x="1098px" y="34.68px" width="97.60000000000001px" height="97.60000000000001px"  fill="orange" stroke="black" stroke-width="1px"  />
+
+
+
+<text x="20px" y="624.24px" font-size="61px" font-family="Arial" >cost = 4,6,12</text>
+
+
+  </g>
+  <g transform="translate(20,2794.4) " >
+    <rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
+
+
+
+<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Daredavil</text>
+
+    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">Whenever you take unnecessary risks +1</text>
+
+    <text x="610px" y="269.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">to all skill rolls</text>
+
+
+
+
+
+<text x="20px" y="624.24px" font-size="61px" font-family="Arial" >cost = 15</text>
+
+
+  </g>
+  <g transform="translate(1240,2794.4) " >
+    <rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
+
+
+
+<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Empathy</text>
+
+    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">You can sense other peoples emotions.</text>
+
+    <text x="610px" y="269.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">+2 for perception on people.</text>
+
+    <text x="610px" y="330.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">+1 for persuasion</text>
+
+
 
 
 
