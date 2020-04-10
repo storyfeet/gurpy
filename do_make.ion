@@ -1,1 +1,15 @@
-any_cards -f skills.crd -t skills.tp -o out/skills -a 2 -d 5
+#!/usr/bin/env ion
+
+if any_cards -f skills.crd -t skills.tp -o out/skills -a 2 -d 5
+    echo "Anycards Success"
+else
+    echo "any cards failure"
+    exit
+end
+
+for x in "out/skillsf_*.svg"
+    let name=$(echo "$x" | cut -f 1 -d '.') 
+    inkscape -f $x -A ${name}.pdf
+end
+
+pdfunite out/skillsf_*.pdf out/all_skills.pdf

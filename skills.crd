@@ -5,6 +5,7 @@
 .tx:"If <Level> is  Positive. You are a tech wizard. If it's negative. You pre primitive and know little of how to use anything above your level."
 
 Language:
+.cost:"<Level>"
 .params:"Lang,Level"
 .tx:"(1 Lang is native and free.)
 Other languages:
@@ -54,4 +55,18 @@ Ambidextrous:
 Catfall:
 .cost:10
 .tx:"Treat falls as 5 metres less. Roll Dx to half any fall damage"
+
+"Combat Reflexes":
+.cost:15
+.tx:"You have extraordinry reactions for fighting
++1 to all active defense
++2 to fright checks
+Never Freeze
++6 to recover Surprise and Stun"
+
+"Danger Sense":
+.cost:15
+.passive:true
+.tx:"Super alert to impending danger, gm rolls secretly against your percetion whenever a threat is possible to warn you"
+
 

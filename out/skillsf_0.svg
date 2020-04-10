@@ -4,70 +4,212 @@
     <rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
 
 
-<text x="30px" y="138.72px" font-size="109.8px" font-family="Arial" font-weight="bold">Tech Level(Level)</text>
+
+<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Tech Level(Level)</text>
+
+    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">If &lt;Level&gt; is  Positive. You are a</text>
+
+    <text x="610px" y="269.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">tech wizard. If it&apos;s negative. You pre</text>
+
+    <text x="610px" y="330.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">primitive and know little of how to</text>
+
+    <text x="610px" y="391.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">use anything above your level.</text>
+
+
+
+
+
+<text x="20px" y="624.24px" font-size="61px" font-family="Arial" >cost = 5*&lt;Level&gt;</text>
+
 
   </g>
   <g transform="translate(1240,20) " >
     <rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
 
 
-<text x="30px" y="138.72px" font-size="85.4px" font-family="Arial" font-weight="bold">Language(Lang,Level)</text>
+
+<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Language(Lang,Level)</text>
+
+    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">(1 Lang is native and free.)</text>
+
+    <text x="610px" y="269.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">Other languages:</text>
+
+    <text x="610px" y="330.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">*Broken:1, *Accented:2, Native:3</text>
+
+
+
+
+
+<text x="20px" y="624.24px" font-size="61px" font-family="Arial" >cost = &lt;Level&gt;</text>
+
 
   </g>
   <g transform="translate(20,713.6) " >
     <rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
 
 
-<text x="30px" y="138.72px" font-size="85.4px" font-family="Arial" font-weight="bold">Literacy(Lang,Level)</text>
+
+<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Literacy(Lang,Level)</text>
+
+    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">For Native Lang:</text>
+
+    <text x="610px" y="269.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">*None:- 3, *Broken:- 2, *Accented:- 1</text>
+
+    <text x="610px" y="330.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">For other Lang:</text>
+
+    <text x="610px" y="391.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">*Broken:1, *Accented:2, *Native:3</text>
+
+
+
+
+
 
   </g>
   <g transform="translate(1240,713.6) " >
     <rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
 
 
-<text x="30px" y="138.72px" font-size="109.8px" font-family="Arial" font-weight="bold">Wealth(Level)</text>
+
+<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Wealth(Level)</text>
+
+    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">Logarithmic: for each level, you can</text>
+
+    <text x="610px" y="269.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">ignore the cost of purchases below</text>
+
+    <text x="610px" y="330.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">&quot;10^(Level)&quot;</text>
+
+
+
+
+
+<text x="20px" y="624.24px" font-size="61px" font-family="Arial" >cost = 4 * sqr(Level-2)</text>
+
 
   </g>
   <g transform="translate(20,1407.2) " >
     <rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
 
 
-<text x="30px" y="138.72px" font-size="85.4px" font-family="Arial" font-weight="bold">Reputation(Level,Specifics)</text>
+
+<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Reputation(Level,Specifics)</text>
+
+    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">What are you known for? You must give</text>
+
+    <text x="610px" y="269.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">specifics. How do people react to your</text>
+
+    <text x="610px" y="330.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle"> reputation +&lt;Level&gt; (between - 5 to</text>
+
+    <text x="610px" y="391.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">5) on reaction rolls.</text>
+
+
+
+
+
+<text x="20px" y="624.24px" font-size="61px" font-family="Arial" >cost = &lt;Level&gt;</text>
+
 
   </g>
   <g transform="translate(1240,1407.2) " >
     <rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
 
 
-<text x="30px" y="138.72px" font-size="85.4px" font-family="Arial" font-weight="bold">Social Status(Level)</text>
+
+<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Social Status(Level)</text>
+
+    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">Level - -  - 2:Serf</text>
+
+    <text x="610px" y="269.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">0:Average Free Person</text>
+
+    <text x="610px" y="330.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">1:Low Ruling Class</text>
+
+    <text x="610px" y="391.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">8:Emporer</text>
+
+
+
+
+
+<text x="20px" y="624.24px" font-size="61px" font-family="Arial" >cost = 5*Level</text>
+
 
   </g>
   <g transform="translate(20,2100.8) " >
     <rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
 
 
-<text x="30px" y="138.72px" font-size="85.4px" font-family="Arial" font-weight="bold">Acute Senses(Level,Sense)</text>
+
+<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Acute Senses(Level,Sense)</text>
+
+    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">+&lt;Level&gt; Perception rolls in your</text>
+
+    <text x="610px" y="269.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">chosen Sense</text>
+
+
+
+
+
+<text x="20px" y="624.24px" font-size="61px" font-family="Arial" >cost = 2*Level</text>
+
 
   </g>
   <g transform="translate(1240,2100.8) " >
     <rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
 
 
-<text x="30px" y="138.72px" font-size="109.8px" font-family="Arial" font-weight="bold">Ambidextrous</text>
+
+<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Ambidextrous</text>
+
+    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">You can work or fight with either</text>
+
+    <text x="610px" y="269.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">hand, helpful of one of your hand&apos;s is</text>
+
+    <text x="610px" y="330.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">stuck.</text>
+
+
+
+
+
+<text x="20px" y="624.24px" font-size="61px" font-family="Arial" >cost = 5</text>
+
 
   </g>
   <g transform="translate(20,2794.4) " >
     <rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
 
 
-<text x="30px" y="138.72px" font-size="109.8px" font-family="Arial" font-weight="bold">Animal Empathy</text>
+
+<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Animal Empathy</text>
+
+    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">You are very good at reading animal</text>
+
+    <text x="610px" y="269.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">emotions and tells. You can also use</text>
+
+    <text x="610px" y="330.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">your influence on animals as if human.</text>
+
+
+
+
+
+<text x="20px" y="624.24px" font-size="61px" font-family="Arial" >cost = 5</text>
+
 
   </g>
   <g transform="translate(1240,2794.4) " >
     <rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
 
 
-<text x="30px" y="138.72px" font-size="109.8px" font-family="Arial" font-weight="bold">Catfall</text>
+
+<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Catfall</text>
+
+    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">Treat falls as 5 metres less. Roll Dx</text>
+
+    <text x="610px" y="269.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">to half any fall damage</text>
+
+
+
+
+
+<text x="20px" y="624.24px" font-size="61px" font-family="Arial" >cost = 10</text>
+
 
   </g>
 </svg>

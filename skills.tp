@@ -1,4 +1,20 @@
 <rect {{xywh 0 0 .w .h}} {{fl_stk "white" "black" 5}} />
 {{$title := b_sel .data.params (ccat .name "(" .data.params ")" ) .name }}
-{{$tit_size:= mul .w (b_sel (lt (len $title) 18) 0.09 0.07)}}
-<text x="30px" y="{{mul .h 0.2}}px" {{fnt $tit_size "Arial" -}} font-weight="bold">{{$title}}</text>
+{{$tit_size:= mul .w 0.07}}
+{{$h := .h -}}
+{{$sy := mul .h 0.3 -}}
+{{$sx := mul .w 0.5 -}}
+{{$lh := mul .w 0.05 -}}
+{{$fnt := (fnt $lh "Arial")}}
+<text x="30px" y="{{mul .h 0.15}}px" {{fnt $tit_size "Arial" -}} font-weight="bold" vertical-align="text-top">{{$title}}</text>
+{{range $k, $v := wrap .data.tx 38}}
+    <text x="{{$sx}}px" y="{{add $sy (mul $lh $k)}}px" {{$fnt -}} text-anchor="middle">{{xml_es $v}}</text>
+{{end}}
+
+{{if .data.passive}}
+<rect {{xywh (mul .w 0.9) (mul .h 0.05) (mul .w 0.08) (mul .w 0.08)}} {{fl_stk "orange" "black" 1}} />
+{{end}}
+
+{{if .data.cost}}
+<text x="20px" y="{{mul 0.9 .h}}px" {{$fnt}}>{{xml_es "cost = " .data.cost}}</text>
+{{end}}
