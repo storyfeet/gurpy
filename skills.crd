@@ -29,19 +29,19 @@ For each level, you can add a zero to both those numbers."
 
 "Bad Reputation":
 .params:"Trait"
-.gain:"4,6"
+.gain:[4,6]
 .tx:"You must specify the trait."
 
 
 "Social Standing":
 .cost:[10,25,40,70]
 .tx:"Average person is a free person of no significance,
-Above that: *Landowner *Lord *King *Emporer."
+Above that: Landowner / Lord / King / Emporer."
 
-"Acute Senses":
+"Acute Sense":
 .cost:[3,6,10]
 .params:"Sense"
-.tx:"+<Level> Perception rolls in your chosen Sense"
+.tx:"Increased perception whenever your chosen sense fits"
 
 Ambidextrous:
 .cost:5
@@ -108,9 +108,9 @@ Empathy:
 .tx:"Successfull blocks give you a free counter attack"
 
 Flexible:
-.cost:5
+.cost:[4,6,8]
 .tx:"Squeeze through small gaps
-+2 to escape restraints"
+or escape restraints"
 
 Climb:
 .cost:5
@@ -137,6 +137,12 @@ Luck:
 .cost:[8,15,25]
 .tx:"Can move an extra mph or square per turn"
 
+Fearless:
+.cost:[10,15,20]
+.tx:"It takes a lot to scare you."
 
-
+Scardycat:
+.gain:[15,20]
+.tx:"You are easily scared and either freeze or run away from scary things quickly"
+.exclude:[Fearless]
 

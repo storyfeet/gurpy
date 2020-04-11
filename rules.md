@@ -35,11 +35,12 @@ Averages:
     Speed : 4mph and 4 squares per turn
 
 
-Successes Required = match task: 
+Successes Required: 
     Climb Wall:  Height(m) ?slippy{+1} ?grippy{-1}
     Jump Height : (Height(m)-1)*2
-    Jump Dist : (Dist(m)-1) *2)
-
+    Jump Dist : (Dist(m)-1) *2
+    Escape: Cuffs - 3 , Rope - 2 
+      
 
 
 

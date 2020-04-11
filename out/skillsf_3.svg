@@ -1,1 +1,35 @@
 <?xml version="1.0" ?>
+<svg width="2480px" height="3508px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <g transform="translate(20,20) " >
+    
+
+<rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
+<line x1="36.6px" y1="124.848px" x2="1183.3999999999999px" y2="124.848px" fill="red" stroke="red" stroke-width="12.200000000000001px"  stroke-linecap="round"/>
+<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Scardycat</text>
+
+    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">You are easily scared and either</text>
+
+    <text x="610px" y="269.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">freeze or run away from scary things</text>
+
+    <text x="610px" y="330.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">quickly</text>
+
+
+
+
+
+
+
+
+
+<text x="20px" y="624.24px" font-size="61px" font-family="Arial" >gain = 15 / 20</text>
+
+
+
+
+
+
+    <text x="1159px" y="659.6px" font-size="34.68px" font-family="Arial"  text-anchor="end" fill="red">! Fearless</text>
+
+
+  </g>
+</svg>

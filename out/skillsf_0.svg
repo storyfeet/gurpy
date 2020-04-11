@@ -28,6 +28,7 @@
 
 
 
+
   </g>
   <g transform="translate(1240,20) " >
     
@@ -47,6 +48,7 @@
 
 
 <text x="20px" y="624.24px" font-size="61px" font-family="Arial" >cost = -5</text>
+
 
 
 
@@ -82,6 +84,7 @@
 
 
 
+
   </g>
   <g transform="translate(1240,713.6) " >
     
@@ -105,6 +108,7 @@
 
 
 <text x="20px" y="624.24px" font-size="61px" font-family="Arial" >gain = 15</text>
+
 
 
 
@@ -146,6 +150,7 @@
 
 
 
+
   </g>
   <g transform="translate(1240,1407.2) " >
     
@@ -163,6 +168,7 @@
 
 
 <text x="20px" y="624.24px" font-size="61px" font-family="Arial" >cost = 2 / 4 / 6</text>
+
 
 
 
@@ -189,7 +195,8 @@
 
 
 
-<text x="20px" y="624.24px" font-size="61px" font-family="Arial" >gain = 4,6</text>
+<text x="20px" y="624.24px" font-size="61px" font-family="Arial" >gain = 4 / 6</text>
+
 
 
 
@@ -201,35 +208,6 @@
     
 
 <rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
-<line x1="36.6px" y1="124.848px" x2="1183.3999999999999px" y2="124.848px" fill="red" stroke="red" stroke-width="12.200000000000001px"  stroke-linecap="round"/>
-<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Slave(Owner)</text>
-
-    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">You must give info about your owner.</text>
-
-
-
-
-
-
-
-
-
-<text x="20px" y="624.24px" font-size="61px" font-family="Arial" >gain = 10</text>
-
-
-
-
-
-    <text x="1159px" y="624.6px" font-size="34.68px" font-family="Arial"  text-anchor="end" fill="red">! Wealth</text>
-
-    <text x="1159px" y="659.28px" font-size="34.68px" font-family="Arial"  text-anchor="end" fill="red">! Social Standing</text>
-
-
-  </g>
-  <g transform="translate(20,2794.4) " >
-    
-
-<rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
 <line x1="36.6px" y1="124.848px" x2="1183.3999999999999px" y2="124.848px" fill="blue" stroke="blue" stroke-width="12.200000000000001px"  stroke-linecap="round"/>
 <text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Social Standing</text>
 
@@ -237,9 +215,9 @@
 
     <text x="610px" y="269.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">significance,</text>
 
-    <text x="610px" y="330.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">Above that: *Landowner *Lord *King</text>
+    <text x="610px" y="330.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">Above that: Landowner / Lord / King /</text>
 
-    <text x="610px" y="391.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">*Emporer.</text>
+    <text x="610px" y="391.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">Emporer.</text>
 
 
 
@@ -256,17 +234,18 @@
 
 
 
+
   </g>
-  <g transform="translate(1240,2794.4) " >
+  <g transform="translate(20,2794.4) " >
     
 
 <rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
 <line x1="36.6px" y1="124.848px" x2="1183.3999999999999px" y2="124.848px" fill="blue" stroke="blue" stroke-width="12.200000000000001px"  stroke-linecap="round"/>
-<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Acute Senses(Sense)</text>
+<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Acute Sense(Sense)</text>
 
-    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">+&lt;Level&gt; Perception rolls in your</text>
+    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">Increased perception whenever your</text>
 
-    <text x="610px" y="269.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">chosen Sense</text>
+    <text x="610px" y="269.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">chosen sense fits</text>
 
 
 
@@ -275,6 +254,37 @@
 
 
 <text x="20px" y="624.24px" font-size="61px" font-family="Arial" >cost = 3 / 6 / 10</text>
+
+
+
+
+
+
+
+
+
+  </g>
+  <g transform="translate(1240,2794.4) " >
+    
+
+<rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
+<line x1="36.6px" y1="124.848px" x2="1183.3999999999999px" y2="124.848px" fill="blue" stroke="blue" stroke-width="12.200000000000001px"  stroke-linecap="round"/>
+<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Ambidextrous</text>
+
+    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">You can work or fight with either</text>
+
+    <text x="610px" y="269.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">hand, helpful of one of your hand&apos;s is</text>
+
+    <text x="610px" y="330.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">stuck.</text>
+
+
+
+
+
+
+
+<text x="20px" y="624.24px" font-size="61px" font-family="Arial" >cost = 5</text>
+
 
 
 

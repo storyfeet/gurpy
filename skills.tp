@@ -32,8 +32,9 @@
 <text x="20px" y="{{mul 0.9 .h}}px" {{$fnt}}>{{xml_es "gain = " (sep " / " .data.gain) }}</text>
 {{end}}
 
-{{$ex_len := s_len .data.exclude}}
+{{$excl := as_list .data.exclude}}
+{{$ex_len := s_len $excl}}
 {{$ex_lh := mul $h 0.05}}
-{{range $k,$v := as_list .data.exclude}}
+{{range $k,$v := $excl}}
     <text x="{{mul $w 0.95}}px" y="{{add $h (mul -1 $ex_len $ex_lh) (mul $ex_lh $k)}}px" {{fnt $ex_lh "Arial" }} text-anchor="end" fill="red">! {{xml_es $v}}</text>
 {{end}}
