@@ -1,31 +1,39 @@
 <?xml version="1.0" ?>
 <svg width="2480px" height="3508px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
   <g transform="translate(20,20) " >
-    <rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
+    
 
-
-
+<rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
+<line x1="36.6px" y1="124.848px" x2="1183.3999999999999px" y2="124.848px" fill="blue" stroke="blue" stroke-width="12.200000000000001px"  stroke-linecap="round"/>
 <text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Tech Wizard</text>
 
-    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">If it&apos;s negative. You pre primitive</text>
+    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">You know how to use fancy tech and can</text>
 
-    <text x="610px" y="269.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">and know little of how to use anything</text>
+    <text x="610px" y="269.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">quickly grasp tech you&apos;ve never seen</text>
 
-    <text x="610px" y="330.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">above your level.</text>
-
-
+    <text x="610px" y="330.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">before</text>
 
 
 
-<text x="20px" y="624.24px" font-size="61px" font-family="Arial" >cost = 4,10</text>
+
+
+
+
+<text x="20px" y="624.24px" font-size="61px" font-family="Arial" >cost = 4 / 10</text>
+
+
+
+
+
+
 
 
   </g>
   <g transform="translate(1240,20) " >
-    <rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
+    
 
-
-
+<rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
+<line x1="36.6px" y1="124.848px" x2="1183.3999999999999px" y2="124.848px" fill="blue" stroke="blue" stroke-width="12.200000000000001px"  stroke-linecap="round"/>
 <text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Primative</text>
 
     <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">You do not understand and cannot use</text>
@@ -36,15 +44,23 @@
 
 
 
+
+
 <text x="20px" y="624.24px" font-size="61px" font-family="Arial" >cost = -5</text>
+
+
+
+
+
+
 
 
   </g>
   <g transform="translate(20,713.6) " >
-    <rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
+    
 
-
-
+<rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
+<line x1="36.6px" y1="124.848px" x2="1183.3999999999999px" y2="124.848px" fill="blue" stroke="blue" stroke-width="12.200000000000001px"  stroke-linecap="round"/>
 <text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Second Language(Name)</text>
 
     <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">For each level, choose a language from</text>
@@ -55,15 +71,23 @@
 
 
 
-<text x="20px" y="624.24px" font-size="61px" font-family="Arial" >cost = [Number(Number { n: U(3) }), Number(Number { n: U(6) }), Number(Number { n: U(9) })]</text>
+
+
+<text x="20px" y="624.24px" font-size="61px" font-family="Arial" >cost = 3 / 6 / 9</text>
+
+
+
+
+
+
 
 
   </g>
   <g transform="translate(1240,713.6) " >
-    <rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
+    
 
-
-
+<rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
+<line x1="36.6px" y1="124.848px" x2="1183.3999999999999px" y2="124.848px" fill="red" stroke="red" stroke-width="12.200000000000001px"  stroke-linecap="round"/>
 <text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Poverty</text>
 
     <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">You start unable to buy anything</text>
@@ -75,33 +99,26 @@
 
 
 
+
+
+
+
+
+<text x="20px" y="624.24px" font-size="61px" font-family="Arial" >gain = 15</text>
+
+
+
+
+
+    <text x="1159px" y="659.6px" font-size="34.68px" font-family="Arial"  text-anchor="end" fill="red">! Wealth</text>
 
 
   </g>
   <g transform="translate(20,1407.2) " >
-    <rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
+    
 
-
-
-<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Poverty</text>
-
-    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">You start unable to buy anything</text>
-
-    <text x="610px" y="269.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">equipment or clothes. You must track</text>
-
-    <text x="610px" y="330.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">every penny, </text>
-
-
-
-
-
-
-  </g>
-  <g transform="translate(1240,1407.2) " >
-    <rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
-
-
-
+<rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
+<line x1="36.6px" y1="124.848px" x2="1183.3999999999999px" y2="124.848px" fill="blue" stroke="blue" stroke-width="12.200000000000001px"  stroke-linecap="round"/>
 <text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Wealth</text>
 
     <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">The Avg person starts with £500 and</text>
@@ -118,15 +135,23 @@
 
 
 
-<text x="20px" y="624.24px" font-size="61px" font-family="Arial" >cost = 8,15,35</text>
+
+
+<text x="20px" y="624.24px" font-size="61px" font-family="Arial" >cost = 8 / 15 / 35</text>
+
+
+
+
+
+
 
 
   </g>
-  <g transform="translate(20,2100.8) " >
-    <rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
+  <g transform="translate(1240,1407.2) " >
+    
 
-
-
+<rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
+<line x1="36.6px" y1="124.848px" x2="1183.3999999999999px" y2="124.848px" fill="blue" stroke="blue" stroke-width="12.200000000000001px"  stroke-linecap="round"/>
 <text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Good Reputation(Trait)</text>
 
     <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">You must specify the trait.</text>
@@ -135,15 +160,23 @@
 
 
 
-<text x="20px" y="624.24px" font-size="61px" font-family="Arial" >cost = 2,4,6</text>
+
+
+<text x="20px" y="624.24px" font-size="61px" font-family="Arial" >cost = 2 / 4 / 6</text>
+
+
+
+
+
+
 
 
   </g>
-  <g transform="translate(1240,2100.8) " >
-    <rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
+  <g transform="translate(20,2100.8) " >
+    
 
-
-
+<rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
+<line x1="36.6px" y1="124.848px" x2="1183.3999999999999px" y2="124.848px" fill="red" stroke="red" stroke-width="12.200000000000001px"  stroke-linecap="round"/>
 <text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Bad Reputation(Trait)</text>
 
     <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">You must specify the trait.</text>
@@ -153,12 +186,22 @@
 
 
 
+
+
+
+<text x="20px" y="624.24px" font-size="61px" font-family="Arial" >gain = 4,6</text>
+
+
+
+
+
+
   </g>
-  <g transform="translate(20,2794.4) " >
-    <rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
+  <g transform="translate(1240,2100.8) " >
+    
 
-
-
+<rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
+<line x1="36.6px" y1="124.848px" x2="1183.3999999999999px" y2="124.848px" fill="red" stroke="red" stroke-width="12.200000000000001px"  stroke-linecap="round"/>
 <text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Slave(Owner)</text>
 
     <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">You must give info about your owner.</text>
@@ -168,12 +211,26 @@
 
 
 
+
+
+
+<text x="20px" y="624.24px" font-size="61px" font-family="Arial" >gain = 10</text>
+
+
+
+
+
+    <text x="1159px" y="624.6px" font-size="34.68px" font-family="Arial"  text-anchor="end" fill="red">! Wealth</text>
+
+    <text x="1159px" y="659.28px" font-size="34.68px" font-family="Arial"  text-anchor="end" fill="red">! Social Standing</text>
+
+
   </g>
-  <g transform="translate(1240,2794.4) " >
-    <rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
+  <g transform="translate(20,2794.4) " >
+    
 
-
-
+<rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
+<line x1="36.6px" y1="124.848px" x2="1183.3999999999999px" y2="124.848px" fill="blue" stroke="blue" stroke-width="12.200000000000001px"  stroke-linecap="round"/>
 <text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Social Standing</text>
 
     <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">Average person is a free person of no</text>
@@ -188,7 +245,42 @@
 
 
 
-<text x="20px" y="624.24px" font-size="61px" font-family="Arial" >cost = [Number(Number { n: U(10) }), Number(Number { n: U(25) }), Number(Number { n: U(40) }), Number(Number { n: U(70) })]</text>
+
+
+<text x="20px" y="624.24px" font-size="61px" font-family="Arial" >cost = 10 / 25 / 40 / 70</text>
+
+
+
+
+
+
+
+
+  </g>
+  <g transform="translate(1240,2794.4) " >
+    
+
+<rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
+<line x1="36.6px" y1="124.848px" x2="1183.3999999999999px" y2="124.848px" fill="blue" stroke="blue" stroke-width="12.200000000000001px"  stroke-linecap="round"/>
+<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Acute Senses(Sense)</text>
+
+    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">+&lt;Level&gt; Perception rolls in your</text>
+
+    <text x="610px" y="269.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">chosen Sense</text>
+
+
+
+
+
+
+
+<text x="20px" y="624.24px" font-size="61px" font-family="Arial" >cost = 3 / 6 / 10</text>
+
+
+
+
+
+
 
 
   </g>

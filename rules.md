@@ -28,7 +28,17 @@ A wealthy person may ignore purchases up to £100
 A Very wealthy person may ignore purchases up to £1000
 
 
+No retry without changing something
 
+Averages:
+    Wealth : £500 ignores £10
+    Speed : 4mph and 4 squares per turn
+
+
+Successes Required = match task: 
+    Climb Wall:  Height(m) + ?slippy{1} - ?grippy{1}
+    Jump Height : (Height(m)-1)*2
+    Jump Dist : (Dist(m)-1) *2)
 
 
 Trait Cost:

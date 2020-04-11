@@ -1,20 +1,39 @@
-<rect {{xywh 0 0 .w .h}} {{fl_stk "white" "black" 5}} />
-{{$title := b_sel .data.params (ccat .name "(" .data.params ")" ) .name }}
-{{$tit_size:= mul .w 0.07}}
+{{$bar_col := b_sel .data.gain "red" "blue"}}
+{{$bar_y := mul .h 0.18}}
+{{$title := b_sel .data.params (ccat .name "(" .data.params ")" ) .name -}}
+{{$tit_size:= mul .w 0.07 -}}
 {{$h := .h -}}
+{{$w := .w -}}
 {{$sy := mul .h 0.3 -}}
 {{$sx := mul .w 0.5 -}}
 {{$lh := mul .w 0.05 -}}
-{{$fnt := (fnt $lh "Arial")}}
+{{$fnt := (fnt $lh "Arial") -}}
+
+<rect {{xywh 0 0 .w .h}} {{fl_stk "white" "black" 5}} />
+<line x1="{{mul 0.03 .w}}px" y1="{{$bar_y}}px" x2="{{mul 0.97 .w}}px" y2="{{$bar_y}}px" {{fl_stk $bar_col $bar_col (mul .w 0.01)}} stroke-linecap="round"/>
 <text x="30px" y="{{mul .h 0.15}}px" {{fnt $tit_size "Arial" -}} font-weight="bold" vertical-align="text-top">{{$title}}</text>
 {{range $k, $v := wrap .data.tx 38}}
     <text x="{{$sx}}px" y="{{add $sy (mul $lh $k)}}px" {{$fnt -}} text-anchor="middle">{{xml_es $v}}</text>
 {{end}}
 
 {{if .data.passive}}
-<rect {{xywh (mul .w 0.9) (mul .h 0.05) (mul .w 0.08) (mul .w 0.08)}} {{fl_stk "orange" "black" 1}} />
+<rect {{xywh (mul .w 0.9) (mul .h 0.05) (mul .w 0.06) (mul .w 0.06)}} {{fl_stk "orange" "black" 1}} />
+{{end}}
+
+{{if .data.combat}}
+<rect {{xywh (mul .w 0.9) (mul .h 0.05) (mul .w 0.06) (mul .w 0.06)}} {{fl_stk "red" "black" 1}} />
 {{end}}
 
 {{if .data.cost}}
-<text x="20px" y="{{mul 0.9 .h}}px" {{$fnt}}>{{xml_es "cost = " .data.cost}}</text>
+<text x="20px" y="{{mul 0.9 .h}}px" {{$fnt}}>{{xml_es "cost = " (sep " / " .data.cost) }}</text>
+{{end}}
+
+{{if .data.gain}}
+<text x="20px" y="{{mul 0.9 .h}}px" {{$fnt}}>{{xml_es "gain = " (sep " / " .data.gain) }}</text>
+{{end}}
+
+{{$ex_len := s_len .data.exclude}}
+{{$ex_lh := mul $h 0.05}}
+{{range $k,$v := as_list .data.exclude}}
+    <text x="{{mul $w 0.95}}px" y="{{add $h (mul -1 $ex_len $ex_lh) (mul $ex_lh $k)}}px" {{fnt $ex_lh "Arial" }} text-anchor="end" fill="red">! {{xml_es $v}}</text>
 {{end}}

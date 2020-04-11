@@ -1,6 +1,7 @@
 "Tech Wizard":
-.cost:"4,10"
-.tx:"If it's negative. You pre primitive and know little of how to use anything above your level."
+.cost:[4,10]
+.tx:"You know how to use fancy tech and can quickly grasp tech you've never seen before"
+.flavour:"*Mashes Keys*. I'm in!"
 
 Primative:
 .cost:-5
@@ -11,20 +12,19 @@ Primative:
 .params:"Name"
 .tx:"For each level, choose a language from the list of common languages"
 
-2*Poverty:
+Poverty:
 .gain:15
-.exclude:Wealth
+.exclude:[Wealth]
 .tx:"You start unable to buy anything equipment or clothes. You must track every penny, "
 
 "Wealth":
-.cost:"8,15,35"
-.exclure:Poverty
+.cost:[8,15,35]
 .tx:"The Avg person starts with £500 and can ignore the cost of purchases below £10.
 For each level, you can add a zero to both those numbers."
 
 "Good Reputation":
 .params:"Trait"
-.cost:"2,4,6"
+.cost:[2,4,6]
 .tx:"You must specify the trait."
 
 "Bad Reputation":
@@ -32,11 +32,6 @@ For each level, you can add a zero to both those numbers."
 .gain:"4,6"
 .tx:"You must specify the trait."
 
-"Slave":
-.params:"Owner"
-.gain:10
-.tx:"You must give info about your owner."
-.excludes:[Wealth,"Social Standing"]
 
 "Social Standing":
 .cost:[10,25,40,70]
@@ -44,7 +39,7 @@ For each level, you can add a zero to both those numbers."
 Above that: *Landowner *Lord *King *Emporer."
 
 "Acute Senses":
-.cost:"3,6,10"
+.cost:[3,6,10]
 .params:"Sense"
 .tx:"+<Level> Perception rolls in your chosen Sense"
 
@@ -53,15 +48,20 @@ Ambidextrous:
 .tx:"You can work or fight with either hand, helpful of one of your hand's is stuck."
 
 "Animal Empathy":
-.cost:5
+.cost:[5,8,11]
 .tx:"You are very good at reading animal emotions and tells. You can also use your influence on animals as if human."
 
 Catfall:
-.cost:"5,10,15"
-.tx:"Treat falls as (3/6/10) and gain dice against fall damage"
+.cost:[5,10,15]
+.tx:"Treat falls as (3/6/10) fewer metres and gain appropriate dice against fall damage"
+
+"Quick thinking":
+.cost:[3,5,6]
+.combat:true
+.tx:"You are ready to act fast, and you get to act first. probably. +Initiative" 
 
 "Combat Reflexes":
-.cost:15
+.cost:[10,20,30]
 .tx:"You have extraordinry reactions for fighting
 +1 to all active defense
 +2 to fright checks
@@ -71,39 +71,39 @@ Never Freeze
 Clumsy:
 .gain:[5,10,20]
 .tx:"You knock things off of stuff"
-.excludes:Stealth
+.exclude:[Stealth]
 
 Stealth:
-.cost:"3,5,10"
+.cost:[3,5,10]
 .tx:"Can hide from other people as needed, gain extra dice if terrain is good for hiding"
 
 "Threat Aware":
-.cost:"4,6,12"
+.cost:[4,6,12]
 .passive:true
 .tx:"Gm rolls secretly against the \"stealth\" of any coming danger"
 
-Daredavil:
-.cost:15
-.tx:"Whenever you take unnecessary risks +1 to all skill rolls"
+Daredevil:
+.cost:[12,20,34]
+.tx:"Whenever you take unnecessary risks +n to all skill rolls"
 
 Empathy:
-.cost:15
+.cost:[6,12,15]
 .tx:"You can sense other peoples emotions.
 +2 for perception on people.
 +1 for persuasion"
 
-"Block":
-.fight:true
-.cost:5
-.tx:"+1 to Shield blocks"
+"Shield Block":
+.combat:true
+.cost:[5,9,13]
+.tx:"+ defence when holding a shield"
 
 "Evade":
-.fight:true
-.cost:15
-.tx:"+1 to evade rolls"
+.combat:true
+.cost:[10,18,25]
+.tx:"Evade rolls, "
 
 "Parry":
-.fight:true
+.combat:true
 .cost:15
 .tx:"Successfull blocks give you a free counter attack"
 
@@ -117,8 +117,8 @@ Climb:
 .tx:"+2 to any clime situations."
 
 Jump:
-.cost:5
-.tx:"+2 to jump distances"
+.cost:[4,9,15]
+.tx:"Increased jump distance and height jump distances"
 
 Luck:
 .cost:15
@@ -127,5 +127,16 @@ Luck:
 "Night Vision":
 .cost:10
 .tx:"Treat dark as dim and dim as normal light"
+
+"Short Sighted":
+.gain:[12,20]
+.tx:"Can only see within 25/15 metres or 5/3 squares"
+.exclude:["Night Vision"]
+
+"Speedy":
+.cost:[8,15,25]
+.tx:"Can move an extra mph or square per turn"
+
+
 
 
