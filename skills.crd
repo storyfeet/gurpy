@@ -1,21 +1,17 @@
+def Skill:
+.cost:5
+.tx:"You are good at this"
+
 "Tech Wizard":
 .cost:[4,10]
 .tx:"You know how to use fancy tech and can quickly grasp tech you've never seen before"
 .flavour:"*Mashes Keys*. I'm in!"
-
-Primative:
-.cost:-5
-.tx:"You do not understand and cannot use modern technology."
 
 "Second Language":
 .cost:[3,6,9]
 .params:"Name"
 .tx:"For each level, choose a language from the list of common languages"
 
-Poverty:
-.gain:15
-.exclude:[Wealth]
-.tx:"You start unable to buy anything equipment or clothes. You must track every penny, "
 
 "Wealth":
 .cost:[8,15,35]
@@ -27,10 +23,6 @@ For each level, you can add a zero to both those numbers."
 .cost:[2,4,6]
 .tx:"You must specify the trait."
 
-"Bad Reputation":
-.params:"Trait"
-.gain:[4,6]
-.tx:"You must specify the trait."
 
 
 "Social Standing":
@@ -68,10 +60,6 @@ Catfall:
 Never Freeze
 +6 to recover Surprise and Stun"
 
-Clumsy:
-.gain:[5,10,20]
-.tx:"You knock things off of stuff"
-.exclude:[Stealth]
 
 Stealth:
 .cost:[3,5,10]
@@ -113,8 +101,8 @@ Flexible:
 or escape restraints"
 
 Climb:
-.cost:5
-.tx:"+2 to any clime situations."
+.cost:[4,8,14]
+.tx:"+2 to any climb situations."
 
 Jump:
 .cost:[4,9,15]
@@ -128,10 +116,6 @@ Luck:
 .cost:10
 .tx:"Treat dark as dim and dim as normal light"
 
-"Short Sighted":
-.gain:[12,20]
-.tx:"Can only see within 25/15 metres or 5/3 squares"
-.exclude:["Night Vision"]
 
 "Speedy":
 .cost:[8,15,25]
@@ -141,8 +125,13 @@ Fearless:
 .cost:[10,15,20]
 .tx:"It takes a lot to scare you."
 
-Scardycat:
-.gain:[15,20]
-.tx:"You are easily scared and either freeze or run away from scary things quickly"
-.exclude:[Fearless]
+"Killer right hook":
+.cost:[6,11,18]
+.tx:"You can puch extra hard"
+
+"Swordsman":
+.cost:[5,11,19]
+.tx:"Stronger attacks when using a sword"
+
+
 

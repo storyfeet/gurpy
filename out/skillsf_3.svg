@@ -5,6 +5,38 @@
 
 <rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
 <line x1="36.6px" y1="124.848px" x2="1183.3999999999999px" y2="124.848px" fill="red" stroke="red" stroke-width="12.200000000000001px"  stroke-linecap="round"/>
+<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Short Sighted</text>
+
+    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">Can only see within 25/15 metres or</text>
+
+    <text x="610px" y="269.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">5/3 squares</text>
+
+
+
+
+
+
+
+
+
+
+
+<text x="20px" y="624.24px" font-size="61px" font-family="Arial" >gain = 12 / 20</text>
+
+
+
+
+
+
+    <text x="1159px" y="659.6px" font-size="34.68px" font-family="Arial"  text-anchor="end" fill="red">! Night Vision</text>
+
+
+  </g>
+  <g transform="translate(1240,20) " >
+    
+
+<rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
+<line x1="36.6px" y1="124.848px" x2="1183.3999999999999px" y2="124.848px" fill="red" stroke="red" stroke-width="12.200000000000001px"  stroke-linecap="round"/>
 <text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Scardycat</text>
 
     <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">You are easily scared and either</text>
@@ -12,6 +44,8 @@
     <text x="610px" y="269.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">freeze or run away from scary things</text>
 
     <text x="610px" y="330.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">quickly</text>
+
+
 
 
 
@@ -29,6 +63,220 @@
 
 
     <text x="1159px" y="659.6px" font-size="34.68px" font-family="Arial"  text-anchor="end" fill="red">! Fearless</text>
+
+
+  </g>
+  <g transform="translate(20,713.6) " >
+    
+
+<rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
+<line x1="36.6px" y1="124.848px" x2="1183.3999999999999px" y2="124.848px" fill="red" stroke="red" stroke-width="12.200000000000001px"  stroke-linecap="round"/>
+<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Bad Reputation(Trait)</text>
+
+    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">You must specify the trait.</text>
+
+
+
+
+
+
+
+
+
+
+
+<text x="20px" y="624.24px" font-size="61px" font-family="Arial" >gain = 4 / 6</text>
+
+
+
+
+
+
+
+  </g>
+  <g transform="translate(1240,713.6) " >
+    
+
+<rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
+<line x1="36.6px" y1="124.848px" x2="1183.3999999999999px" y2="124.848px" fill="green" stroke="green" stroke-width="12.200000000000001px"  stroke-linecap="round"/>
+<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Truth</text>
+
+    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">You always tell the truth no matter</text>
+
+    <text x="610px" y="269.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">the cost. If you see someone lying you</text>
+
+    <text x="610px" y="330.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">must correct them</text>
+
+
+
+
+
+
+
+
+
+
+
+<text x="20px" y="624.24px" font-size="61px" font-family="Arial" >gain = 3</text>
+
+
+
+
+
+
+
+  </g>
+  <g transform="translate(20,1407.2) " >
+    
+
+<rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
+<line x1="36.6px" y1="124.848px" x2="1183.3999999999999px" y2="124.848px" fill="green" stroke="green" stroke-width="12.200000000000001px"  stroke-linecap="round"/>
+<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">True Love(For Who)</text>
+
+    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">You will do anything for this person,</text>
+
+    <text x="610px" y="269.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">though not necessarily what they tell</text>
+
+    <text x="610px" y="330.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">you</text>
+
+
+
+
+
+
+
+
+
+
+
+<text x="20px" y="624.24px" font-size="61px" font-family="Arial" >gain = 3</text>
+
+
+
+
+
+
+
+  </g>
+  <g transform="translate(1240,1407.2) " >
+    
+
+<rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
+<line x1="36.6px" y1="124.848px" x2="1183.3999999999999px" y2="124.848px" fill="green" stroke="green" stroke-width="12.200000000000001px"  stroke-linecap="round"/>
+<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Romance</text>
+
+    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">You value this muchly and will do</text>
+
+    <text x="610px" y="269.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">anything for it</text>
+
+
+
+
+
+
+
+
+
+
+
+<text x="20px" y="624.24px" font-size="61px" font-family="Arial" >gain = 3</text>
+
+
+
+
+
+
+
+  </g>
+  <g transform="translate(20,2100.8) " >
+    
+
+<rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
+<line x1="36.6px" y1="124.848px" x2="1183.3999999999999px" y2="124.848px" fill="green" stroke="green" stroke-width="12.200000000000001px"  stroke-linecap="round"/>
+<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Friendship</text>
+
+    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">You alway seek to bring people into</text>
+
+    <text x="610px" y="269.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">your frienship circle, and will do</text>
+
+    <text x="610px" y="330.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">anything for a friend.</text>
+
+
+
+
+
+
+
+
+
+
+
+<text x="20px" y="624.24px" font-size="61px" font-family="Arial" >gain = 3</text>
+
+
+
+
+
+
+
+  </g>
+  <g transform="translate(1240,2100.8) " >
+    
+
+<rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
+<line x1="36.6px" y1="124.848px" x2="1183.3999999999999px" y2="124.848px" fill="green" stroke="green" stroke-width="12.200000000000001px"  stroke-linecap="round"/>
+<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Loyal to the Cause</text>
+
+    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">You will never abandon the mission you</text>
+
+    <text x="610px" y="269.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">have accepted</text>
+
+
+
+
+
+
+
+
+
+
+
+<text x="20px" y="624.24px" font-size="61px" font-family="Arial" >gain = 3</text>
+
+
+
+
+
+
+
+  </g>
+  <g transform="translate(20,2794.4) " >
+    
+
+<rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
+<line x1="36.6px" y1="124.848px" x2="1183.3999999999999px" y2="124.848px" fill="green" stroke="green" stroke-width="12.200000000000001px"  stroke-linecap="round"/>
+<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Family</text>
+
+    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">You value this muchly and will do</text>
+
+    <text x="610px" y="269.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">anything for it</text>
+
+
+
+
+
+
+
+
+
+
+
+<text x="20px" y="624.24px" font-size="61px" font-family="Arial" >gain = 3</text>
+
+
+
+
+
 
 
   </g>

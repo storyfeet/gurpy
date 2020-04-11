@@ -1,0 +1,31 @@
+def diss:
+.type:diss
+
+Poverty:
+.gain:15
+.exclude:[Wealth]
+.tx:"You start unable to buy anything equipment or clothes. You must track every penny"
+
+Primative:
+.gain:-7
+.tx:"You do not understand and cannot use modern technology."
+
+Clumsy:
+.gain:[5,10,20]
+.tx:"You knock things off of stuff"
+.exclude:[Stealth]
+
+"Short Sighted":
+.gain:[12,20]
+.tx:"Can only see within 25/15 metres or 5/3 squares"
+.exclude:["Night Vision"]
+
+Scardycat:
+.gain:[15,20]
+.tx:"You are easily scared and either freeze or run away from scary things quickly"
+.exclude:[Fearless]
+
+"Bad Reputation":
+.params:"Trait"
+.gain:[4,6]
+.tx:"You must specify the trait."

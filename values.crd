@@ -1,0 +1,23 @@
+def value:
+.type:value
+.gain:3
+.tx:"You value this muchly and will do anything for it"
+
+Truth:
+.tx:"You always tell the truth no matter the cost. If you see someone lying you must correct them"
+
+"True Love":
+.params:"For Who"
+.tx:"You will do anything for this person, though not necessarily what they tell you"
+
+Romance:
+
+
+
+Friendship:
+.tx:"You alway seek to bring people into your frienship circle, and will do anything for a friend."
+
+"Loyal to the Cause":
+.tx:"You will never abandon the mission you have accepted"
+
+Family:

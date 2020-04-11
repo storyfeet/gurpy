@@ -1,4 +1,4 @@
-{{$bar_col := b_sel .data.gain "red" "blue"}}
+{{$bar_col := match .data.type "diss" "red" "value" "green" "$else" "blue"}}
 {{$bar_y := mul .h 0.18}}
 {{$title := b_sel .data.params (ccat .name "(" .data.params ")" ) .name -}}
 {{$tit_size:= mul .w 0.07 -}}
@@ -15,6 +15,12 @@
 {{range $k, $v := wrap .data.tx 38}}
     <text x="{{$sx}}px" y="{{add $sy (mul $lh $k)}}px" {{$fnt -}} text-anchor="middle">{{xml_es $v}}</text>
 {{end}}
+
+{{$f_lh := mul .w  0.04 -}}
+{{$f_sy := mul .h 0.75 -}}
+{{if .data.flavour}}{{range $k,$v := wrap .data.flavour 45}}
+    <text x="{{$sx}}px" y="{{add $f_sy (mul $f_lh $k)}}px" {{fnt $f_lh "Arial" -}} text-anchor="middle" font-style="italic">{{xml_es $v}}</text>
+{{end}}{{end}}
 
 {{if .data.passive}}
 <rect {{xywh (mul .w 0.9) (mul .h 0.05) (mul .w 0.06) (mul .w 0.06)}} {{fl_stk "orange" "black" 1}} />

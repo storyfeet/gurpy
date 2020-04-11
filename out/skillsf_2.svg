@@ -5,19 +5,21 @@
 
 <rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
 <line x1="36.6px" y1="124.848px" x2="1183.3999999999999px" y2="124.848px" fill="blue" stroke="blue" stroke-width="12.200000000000001px"  stroke-linecap="round"/>
-<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Evade</text>
+<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Jump</text>
 
-    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">Evade rolls, </text>
+    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">Increased jump distance and height</text>
 
-
-
-
-
-<rect x="1098px" y="34.68px" width="73.2px" height="73.2px"  fill="red" stroke="black" stroke-width="1px"  />
+    <text x="610px" y="269.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">jump distances</text>
 
 
 
-<text x="20px" y="624.24px" font-size="61px" font-family="Arial" >cost = 10 / 18 / 25</text>
+
+
+
+
+
+
+<text x="20px" y="624.24px" font-size="61px" font-family="Arial" >cost = 4 / 9 / 15</text>
 
 
 
@@ -33,17 +35,15 @@
 
 <rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
 <line x1="36.6px" y1="124.848px" x2="1183.3999999999999px" y2="124.848px" fill="blue" stroke="blue" stroke-width="12.200000000000001px"  stroke-linecap="round"/>
-<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Parry</text>
+<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Luck</text>
 
-    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">Successfull blocks give you a free</text>
-
-    <text x="610px" y="269.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">counter attack</text>
+    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">Re- roll any &apos;2&apos;s</text>
 
 
 
 
 
-<rect x="1098px" y="34.68px" width="73.2px" height="73.2px"  fill="red" stroke="black" stroke-width="1px"  />
+
 
 
 
@@ -63,119 +63,13 @@
 
 <rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
 <line x1="36.6px" y1="124.848px" x2="1183.3999999999999px" y2="124.848px" fill="blue" stroke="blue" stroke-width="12.200000000000001px"  stroke-linecap="round"/>
-<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Flexible</text>
-
-    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">Squeeze through small gaps</text>
-
-    <text x="610px" y="269.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">or escape restraints</text>
-
-
-
-
-
-
-
-<text x="20px" y="624.24px" font-size="61px" font-family="Arial" >cost = 4 / 6 / 8</text>
-
-
-
-
-
-
-
-
-
-  </g>
-  <g transform="translate(1240,713.6) " >
-    
-
-<rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
-<line x1="36.6px" y1="124.848px" x2="1183.3999999999999px" y2="124.848px" fill="blue" stroke="blue" stroke-width="12.200000000000001px"  stroke-linecap="round"/>
-<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Climb</text>
-
-    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">+2 to any clime situations.</text>
-
-
-
-
-
-
-
-<text x="20px" y="624.24px" font-size="61px" font-family="Arial" >cost = 5</text>
-
-
-
-
-
-
-
-
-
-  </g>
-  <g transform="translate(20,1407.2) " >
-    
-
-<rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
-<line x1="36.6px" y1="124.848px" x2="1183.3999999999999px" y2="124.848px" fill="blue" stroke="blue" stroke-width="12.200000000000001px"  stroke-linecap="round"/>
-<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Jump</text>
-
-    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">Increased jump distance and height</text>
-
-    <text x="610px" y="269.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">jump distances</text>
-
-
-
-
-
-
-
-<text x="20px" y="624.24px" font-size="61px" font-family="Arial" >cost = 4 / 9 / 15</text>
-
-
-
-
-
-
-
-
-
-  </g>
-  <g transform="translate(1240,1407.2) " >
-    
-
-<rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
-<line x1="36.6px" y1="124.848px" x2="1183.3999999999999px" y2="124.848px" fill="blue" stroke="blue" stroke-width="12.200000000000001px"  stroke-linecap="round"/>
-<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Luck</text>
-
-    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">Re- roll any &apos;2&apos;s</text>
-
-
-
-
-
-
-
-<text x="20px" y="624.24px" font-size="61px" font-family="Arial" >cost = 15</text>
-
-
-
-
-
-
-
-
-
-  </g>
-  <g transform="translate(20,2100.8) " >
-    
-
-<rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
-<line x1="36.6px" y1="124.848px" x2="1183.3999999999999px" y2="124.848px" fill="blue" stroke="blue" stroke-width="12.200000000000001px"  stroke-linecap="round"/>
 <text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Night Vision</text>
 
     <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">Treat dark as dim and dim as normal</text>
 
     <text x="610px" y="269.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">light</text>
+
+
 
 
 
@@ -194,37 +88,7 @@
 
 
   </g>
-  <g transform="translate(1240,2100.8) " >
-    
-
-<rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
-<line x1="36.6px" y1="124.848px" x2="1183.3999999999999px" y2="124.848px" fill="red" stroke="red" stroke-width="12.200000000000001px"  stroke-linecap="round"/>
-<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Short Sighted</text>
-
-    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">Can only see within 25/15 metres or</text>
-
-    <text x="610px" y="269.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">5/3 squares</text>
-
-
-
-
-
-
-
-
-
-<text x="20px" y="624.24px" font-size="61px" font-family="Arial" >gain = 12 / 20</text>
-
-
-
-
-
-
-    <text x="1159px" y="659.6px" font-size="34.68px" font-family="Arial"  text-anchor="end" fill="red">! Night Vision</text>
-
-
-  </g>
-  <g transform="translate(20,2794.4) " >
+  <g transform="translate(1240,713.6) " >
     
 
 <rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
@@ -234,6 +98,8 @@
     <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">Can move an extra mph or square per</text>
 
     <text x="610px" y="269.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">turn</text>
+
+
 
 
 
@@ -252,7 +118,7 @@
 
 
   </g>
-  <g transform="translate(1240,2794.4) " >
+  <g transform="translate(20,1407.2) " >
     
 
 <rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
@@ -260,6 +126,8 @@
 <text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Fearless</text>
 
     <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">It takes a lot to scare you.</text>
+
+
 
 
 
@@ -275,6 +143,156 @@
 
 
 
+
+
+  </g>
+  <g transform="translate(1240,1407.2) " >
+    
+
+<rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
+<line x1="36.6px" y1="124.848px" x2="1183.3999999999999px" y2="124.848px" fill="blue" stroke="blue" stroke-width="12.200000000000001px"  stroke-linecap="round"/>
+<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Killer right hook</text>
+
+    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">You can puch extra hard</text>
+
+
+
+
+
+
+
+
+
+<text x="20px" y="624.24px" font-size="61px" font-family="Arial" >cost = 6 / 11 / 18</text>
+
+
+
+
+
+
+
+
+
+  </g>
+  <g transform="translate(20,2100.8) " >
+    
+
+<rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
+<line x1="36.6px" y1="124.848px" x2="1183.3999999999999px" y2="124.848px" fill="blue" stroke="blue" stroke-width="12.200000000000001px"  stroke-linecap="round"/>
+<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Swordsman</text>
+
+    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">Stronger attacks when using a sword</text>
+
+
+
+
+
+
+
+
+
+<text x="20px" y="624.24px" font-size="61px" font-family="Arial" >cost = 5 / 11 / 19</text>
+
+
+
+
+
+
+
+
+
+  </g>
+  <g transform="translate(1240,2100.8) " >
+    
+
+<rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
+<line x1="36.6px" y1="124.848px" x2="1183.3999999999999px" y2="124.848px" fill="red" stroke="red" stroke-width="12.200000000000001px"  stroke-linecap="round"/>
+<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Poverty</text>
+
+    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">You start unable to buy anything</text>
+
+    <text x="610px" y="269.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">equipment or clothes. You must track</text>
+
+    <text x="610px" y="330.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">every penny</text>
+
+
+
+
+
+
+
+
+
+
+
+<text x="20px" y="624.24px" font-size="61px" font-family="Arial" >gain = 15</text>
+
+
+
+
+
+
+    <text x="1159px" y="659.6px" font-size="34.68px" font-family="Arial"  text-anchor="end" fill="red">! Wealth</text>
+
+
+  </g>
+  <g transform="translate(20,2794.4) " >
+    
+
+<rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
+<line x1="36.6px" y1="124.848px" x2="1183.3999999999999px" y2="124.848px" fill="red" stroke="red" stroke-width="12.200000000000001px"  stroke-linecap="round"/>
+<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Primative</text>
+
+    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">You do not understand and cannot use</text>
+
+    <text x="610px" y="269.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">modern technology.</text>
+
+
+
+
+
+
+
+
+
+
+
+<text x="20px" y="624.24px" font-size="61px" font-family="Arial" >gain = -7</text>
+
+
+
+
+
+
+
+  </g>
+  <g transform="translate(1240,2794.4) " >
+    
+
+<rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
+<line x1="36.6px" y1="124.848px" x2="1183.3999999999999px" y2="124.848px" fill="red" stroke="red" stroke-width="12.200000000000001px"  stroke-linecap="round"/>
+<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Clumsy</text>
+
+    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">You knock things off of stuff</text>
+
+
+
+
+
+
+
+
+
+
+
+<text x="20px" y="624.24px" font-size="61px" font-family="Arial" >gain = 5 / 10 / 20</text>
+
+
+
+
+
+
+    <text x="1159px" y="659.6px" font-size="34.68px" font-family="Arial"  text-anchor="end" fill="red">! Stealth</text>
 
 
   </g>
