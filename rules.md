@@ -36,9 +36,11 @@ Averages:
 
 
 Successes Required = match task: 
-    Climb Wall:  Height(m) + ?slippy{1} - ?grippy{1}
+    Climb Wall:  Height(m) ?slippy{+1} ?grippy{-1}
     Jump Height : (Height(m)-1)*2
     Jump Dist : (Dist(m)-1) *2)
+
+
 
 
 Trait Cost:
