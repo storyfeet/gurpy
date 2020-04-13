@@ -1,9 +1,7 @@
-Every player has a level 2 in everything except where traits affect this.
+The average person gets 2 dice at every task, this is measured off against the difficulty of the task.
 Every level above 2 gains you a dice in the chosen skill.
 
-If it would be easy for an average person to do, do not bother rolling unless the character has negative traits against a task.
-
-You may buy a trait many times, but the each purchase costs more: Specifically: the nth purchase costs ```n * cost```
+If it would be easy for an average person to do, don't bother rolling unless the character has negative traits against a task.
 
 For every trait a player has that helps, gain 1 dice unless the card specifies otherwise.
 For every negative trait, lose 1 dice.
@@ -33,6 +31,7 @@ No retry without changing something
 Averages:
     Wealth : £500 ignores £10
     Speed : 4mph and 4 squares per turn
+    HP: 5
 
 
 Successes Required: 
@@ -40,12 +39,21 @@ Successes Required:
     Jump Height : (Height(m)-1)*2
     Jump Dist : (Dist(m)-1) *2
     Escape: Cuffs - 3 , Rope - 2 
-      
+    Repair: Engine - 3, Tyre - 2, Wing - 4
+    Lift:Weight(/30kg) * Height(m)
 
+Healing
+    Hp : n successes heals n-1 hp
+    Poison: 2
+    Frozen: 2
+     
+Rolls against Target:
+    Pickpocket:Alertness +1
+    Persuade:Resolution +1
+    Intimidate:
+    
 
-
-Trait Cost:
-
-Levels repres
+Combat:
+    
 
 

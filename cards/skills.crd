@@ -1,5 +1,6 @@
 def Skill:
-.cost:5
+.cost:[5,10,15]
+.type:skill
 .tx:"You are good at this"
 
 "Tech Wizard":
@@ -22,8 +23,6 @@ For each level, you can add a zero to both those numbers."
 .params:"Trait"
 .cost:[2,4,6]
 .tx:"You must specify the trait."
-
-
 
 "Social Standing":
 .cost:[10,25,40,70]
@@ -59,7 +58,6 @@ Catfall:
 +2 to fright checks
 Never Freeze
 +6 to recover Surprise and Stun"
-
 
 Stealth:
 .cost:[3,5,10]
@@ -133,5 +131,75 @@ Fearless:
 .cost:[5,11,19]
 .tx:"Stronger attacks when using a sword"
 
+"Lock Pick":
+.cost:[2,5,8]
+.tx:"Opening door and safes can bee handy"
 
+"Weapons Expert":
+.cost:[13,20,30]
+.tx:"Any Weapon does more damage in your hands"
+
+Mechanic:
+.cost:[5,10,15]
+.tx:"Fix anything with moving parts"
+
+Medic:
+.cost:[5,9,13]
+.tx:"Every success above 1 heals 1 hp in most cases"
+
+Trickster:
+.cost:[5,10,15]
+.tx:"More persuasive when lying, or tricking people"
+
+Dodge:
+.combat:true
+.cost:[5,11,17]
+.tx:"Evade punches projectiles and nasty chores"
+
+Brawler:
+.combat:true
+.cost:[3,7,12]
+.tx:"Extra fighting ability when outnumbered, or when there is furniture involved"
+
+Tailor:
+.cost:[4,8,10]
+.tx:"Make clothes and disguises quickly."
+
+Actor:
+.cost:[6,10,14]
+.tx:"Pretend to be any person you need to be"
+
+Strategist:
+.cost:[8,15,20]
+.tx:"Bonus points when carrying out a cunning plan"
+
+Pilot:
+.cost:[4,7,10]
+.tx:"You can fly ar drive anything"
+
+2* Expert:
+.cost:[8,15,26]
+.params:[Subject]
+.tx:"You know all about <Subject> maybe even more than the GM"
+
+Strong:
+.cost:[5,10,15]
+.tx:"You can lift all the things"
+        
+"Came Prepared":
+.cost:[10,18,26]
+.tx:"You remembered to pack just what you happen to need right now"
+.flavour:"It's a good thing I have my Jam trousers with me"
+
+Swimmer:
+.cost:[3,7,12]
+.tx:"You swin fast, strong, and gracefully"
+
+"Pick Pocket":
+.cost:[4,8,14]
+.tx:"Other peoples things find themself on your person"
+
+"Walking Map":
+.cost:[6,11,16]
+.tx:"You know where you are, and how to get to where you want."
 

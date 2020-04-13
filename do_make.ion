@@ -1,6 +1,6 @@
 #!/usr/bin/env ion
 
-if any_cards -f skills.crd diss.crd values.crd -t skills.tp -o out/skills -a 2 -d 5
+if any_cards -f cards/skills.crd cards/diss.crd cards/values.crd -t main.tp -o out/skills -a 2 -d 5
     echo "Anycards Success"
 else
     echo "any cards failure"
@@ -13,3 +13,5 @@ for x in "out/skillsf_*.svg"
 end
 
 pdfunite out/skillsf_*.pdf out/all_skills.pdf
+
+

@@ -1,6 +1,8 @@
 {{$bar_col := match .data.type "diss" "red" "value" "green" "$else" "blue"}}
 {{$bar_y := mul .h 0.18}}
-{{$title := b_sel .data.params (ccat .name "(" .data.params ")" ) .name -}}
+{{$param_l := as_list .data.params}}
+
+{{$title := b_sel .data.params (ccat .name "( " (sep " , " $param_l) " )" ) .name -}}
 {{$tit_size:= mul .w 0.07 -}}
 {{$h := .h -}}
 {{$w := .w -}}

@@ -3,15 +3,15 @@
   <g transform="translate(20,20) " >
     
 
+
+
 <rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
-<line x1="36.6px" y1="124.848px" x2="1183.3999999999999px" y2="124.848px" fill="red" stroke="red" stroke-width="12.200000000000001px"  stroke-linecap="round"/>
-<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Short Sighted</text>
+<line x1="36.6px" y1="124.848px" x2="1183.3999999999999px" y2="124.848px" fill="blue" stroke="blue" stroke-width="12.200000000000001px"  stroke-linecap="round"/>
+<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Medic</text>
 
-    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">Can only see within 25/15 metres or</text>
+    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">Every success above 1 heals 1 hp in</text>
 
-    <text x="610px" y="269.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">5/3 squares</text>
-
-
+    <text x="610px" y="269.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">most cases</text>
 
 
 
@@ -21,29 +21,29 @@
 
 
 
-<text x="20px" y="624.24px" font-size="61px" font-family="Arial" >gain = 12 / 20</text>
+<text x="20px" y="624.24px" font-size="61px" font-family="Arial" >cost = 5 / 9 / 13</text>
 
 
 
 
 
 
-    <text x="1159px" y="659.6px" font-size="34.68px" font-family="Arial"  text-anchor="end" fill="red">! Night Vision</text>
+
 
 
   </g>
   <g transform="translate(1240,20) " >
     
 
+
+
 <rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
-<line x1="36.6px" y1="124.848px" x2="1183.3999999999999px" y2="124.848px" fill="red" stroke="red" stroke-width="12.200000000000001px"  stroke-linecap="round"/>
-<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Scardycat</text>
+<line x1="36.6px" y1="124.848px" x2="1183.3999999999999px" y2="124.848px" fill="blue" stroke="blue" stroke-width="12.200000000000001px"  stroke-linecap="round"/>
+<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Trickster</text>
 
-    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">You are easily scared and either</text>
+    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">More persuasive when lying, or</text>
 
-    <text x="610px" y="269.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">freeze or run away from scary things</text>
-
-    <text x="610px" y="330.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">quickly</text>
+    <text x="610px" y="269.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">tricking people</text>
 
 
 
@@ -53,31 +53,29 @@
 
 
 
-
-
-<text x="20px" y="624.24px" font-size="61px" font-family="Arial" >gain = 15 / 20</text>
-
+<text x="20px" y="624.24px" font-size="61px" font-family="Arial" >cost = 5 / 10 / 15</text>
 
 
 
 
 
-    <text x="1159px" y="659.6px" font-size="34.68px" font-family="Arial"  text-anchor="end" fill="red">! Fearless</text>
+
+
 
 
   </g>
   <g transform="translate(20,713.6) " >
     
 
+
+
 <rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
-<line x1="36.6px" y1="124.848px" x2="1183.3999999999999px" y2="124.848px" fill="red" stroke="red" stroke-width="12.200000000000001px"  stroke-linecap="round"/>
-<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Bad Reputation(Trait)</text>
+<line x1="36.6px" y1="124.848px" x2="1183.3999999999999px" y2="124.848px" fill="blue" stroke="blue" stroke-width="12.200000000000001px"  stroke-linecap="round"/>
+<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Dodge</text>
 
-    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">You must specify the trait.</text>
+    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">Evade punches projectiles and nasty</text>
 
-
-
-
+    <text x="610px" y="269.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">chores</text>
 
 
 
@@ -85,7 +83,13 @@
 
 
 
-<text x="20px" y="624.24px" font-size="61px" font-family="Arial" >gain = 4 / 6</text>
+<rect x="1098px" y="34.68px" width="73.2px" height="73.2px"  fill="red" stroke="black" stroke-width="1px"  />
+
+
+
+<text x="20px" y="624.24px" font-size="61px" font-family="Arial" >cost = 5 / 11 / 17</text>
+
+
 
 
 
@@ -97,17 +101,17 @@
   <g transform="translate(1240,713.6) " >
     
 
+
+
 <rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
-<line x1="36.6px" y1="124.848px" x2="1183.3999999999999px" y2="124.848px" fill="green" stroke="green" stroke-width="12.200000000000001px"  stroke-linecap="round"/>
-<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Truth</text>
+<line x1="36.6px" y1="124.848px" x2="1183.3999999999999px" y2="124.848px" fill="blue" stroke="blue" stroke-width="12.200000000000001px"  stroke-linecap="round"/>
+<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Brawler</text>
 
-    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">You always tell the truth no matter</text>
+    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">Extra fighting ability when</text>
 
-    <text x="610px" y="269.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">the cost. If you see someone lying you</text>
+    <text x="610px" y="269.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">outnumbered, or when there is</text>
 
-    <text x="610px" y="330.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">must correct them</text>
-
-
+    <text x="610px" y="330.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">furniture involved</text>
 
 
 
@@ -115,9 +119,13 @@
 
 
 
+<rect x="1098px" y="34.68px" width="73.2px" height="73.2px"  fill="red" stroke="black" stroke-width="1px"  />
 
 
-<text x="20px" y="624.24px" font-size="61px" font-family="Arial" >gain = 3</text>
+
+<text x="20px" y="624.24px" font-size="61px" font-family="Arial" >cost = 3 / 7 / 12</text>
+
+
 
 
 
@@ -129,15 +137,13 @@
   <g transform="translate(20,1407.2) " >
     
 
+
+
 <rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
-<line x1="36.6px" y1="124.848px" x2="1183.3999999999999px" y2="124.848px" fill="green" stroke="green" stroke-width="12.200000000000001px"  stroke-linecap="round"/>
-<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">True Love(For Who)</text>
+<line x1="36.6px" y1="124.848px" x2="1183.3999999999999px" y2="124.848px" fill="blue" stroke="blue" stroke-width="12.200000000000001px"  stroke-linecap="round"/>
+<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Tailor</text>
 
-    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">You will do anything for this person,</text>
-
-    <text x="610px" y="269.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">though not necessarily what they tell</text>
-
-    <text x="610px" y="330.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">you</text>
+    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">Make clothes and disguises quickly.</text>
 
 
 
@@ -147,9 +153,9 @@
 
 
 
+<text x="20px" y="624.24px" font-size="61px" font-family="Arial" >cost = 4 / 8 / 10</text>
 
 
-<text x="20px" y="624.24px" font-size="61px" font-family="Arial" >gain = 3</text>
 
 
 
@@ -161,13 +167,13 @@
   <g transform="translate(1240,1407.2) " >
     
 
+
+
 <rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
-<line x1="36.6px" y1="124.848px" x2="1183.3999999999999px" y2="124.848px" fill="green" stroke="green" stroke-width="12.200000000000001px"  stroke-linecap="round"/>
-<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Romance</text>
+<line x1="36.6px" y1="124.848px" x2="1183.3999999999999px" y2="124.848px" fill="blue" stroke="blue" stroke-width="12.200000000000001px"  stroke-linecap="round"/>
+<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Actor</text>
 
-    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">You value this muchly and will do</text>
-
-    <text x="610px" y="269.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">anything for it</text>
+    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">Pretend to be any person you need to be</text>
 
 
 
@@ -177,9 +183,9 @@
 
 
 
+<text x="20px" y="624.24px" font-size="61px" font-family="Arial" >cost = 6 / 10 / 14</text>
 
 
-<text x="20px" y="624.24px" font-size="61px" font-family="Arial" >gain = 3</text>
 
 
 
@@ -191,15 +197,15 @@
   <g transform="translate(20,2100.8) " >
     
 
+
+
 <rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
-<line x1="36.6px" y1="124.848px" x2="1183.3999999999999px" y2="124.848px" fill="green" stroke="green" stroke-width="12.200000000000001px"  stroke-linecap="round"/>
-<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Friendship</text>
+<line x1="36.6px" y1="124.848px" x2="1183.3999999999999px" y2="124.848px" fill="blue" stroke="blue" stroke-width="12.200000000000001px"  stroke-linecap="round"/>
+<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Strategist</text>
 
-    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">You alway seek to bring people into</text>
+    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">Bonus points when carrying out a</text>
 
-    <text x="610px" y="269.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">your frienship circle, and will do</text>
-
-    <text x="610px" y="330.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">anything for a friend.</text>
+    <text x="610px" y="269.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">cunning plan</text>
 
 
 
@@ -209,9 +215,9 @@
 
 
 
+<text x="20px" y="624.24px" font-size="61px" font-family="Arial" >cost = 8 / 15 / 20</text>
 
 
-<text x="20px" y="624.24px" font-size="61px" font-family="Arial" >gain = 3</text>
 
 
 
@@ -223,13 +229,13 @@
   <g transform="translate(1240,2100.8) " >
     
 
+
+
 <rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
-<line x1="36.6px" y1="124.848px" x2="1183.3999999999999px" y2="124.848px" fill="green" stroke="green" stroke-width="12.200000000000001px"  stroke-linecap="round"/>
-<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Loyal to the Cause</text>
+<line x1="36.6px" y1="124.848px" x2="1183.3999999999999px" y2="124.848px" fill="blue" stroke="blue" stroke-width="12.200000000000001px"  stroke-linecap="round"/>
+<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Pilot</text>
 
-    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">You will never abandon the mission you</text>
-
-    <text x="610px" y="269.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">have accepted</text>
+    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">You can fly ar drive anything</text>
 
 
 
@@ -239,9 +245,9 @@
 
 
 
+<text x="20px" y="624.24px" font-size="61px" font-family="Arial" >cost = 4 / 7 / 10</text>
 
 
-<text x="20px" y="624.24px" font-size="61px" font-family="Arial" >gain = 3</text>
 
 
 
@@ -253,15 +259,15 @@
   <g transform="translate(20,2794.4) " >
     
 
+
+
 <rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
-<line x1="36.6px" y1="124.848px" x2="1183.3999999999999px" y2="124.848px" fill="green" stroke="green" stroke-width="12.200000000000001px"  stroke-linecap="round"/>
-<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Family</text>
+<line x1="36.6px" y1="124.848px" x2="1183.3999999999999px" y2="124.848px" fill="blue" stroke="blue" stroke-width="12.200000000000001px"  stroke-linecap="round"/>
+<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Expert( Subject )</text>
 
-    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">You value this muchly and will do</text>
+    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">You know all about &lt;Subject&gt; maybe</text>
 
-    <text x="610px" y="269.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">anything for it</text>
-
-
+    <text x="610px" y="269.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">even more than the GM</text>
 
 
 
@@ -271,7 +277,41 @@
 
 
 
-<text x="20px" y="624.24px" font-size="61px" font-family="Arial" >gain = 3</text>
+<text x="20px" y="624.24px" font-size="61px" font-family="Arial" >cost = 8 / 15 / 26</text>
+
+
+
+
+
+
+
+
+
+  </g>
+  <g transform="translate(1240,2794.4) " >
+    
+
+
+
+<rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
+<line x1="36.6px" y1="124.848px" x2="1183.3999999999999px" y2="124.848px" fill="blue" stroke="blue" stroke-width="12.200000000000001px"  stroke-linecap="round"/>
+<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Expert( Subject )</text>
+
+    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">You know all about &lt;Subject&gt; maybe</text>
+
+    <text x="610px" y="269.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">even more than the GM</text>
+
+
+
+
+
+
+
+
+
+<text x="20px" y="624.24px" font-size="61px" font-family="Arial" >cost = 8 / 15 / 26</text>
+
+
 
 
 

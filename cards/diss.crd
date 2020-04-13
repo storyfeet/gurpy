@@ -29,3 +29,9 @@ Scardycat:
 .params:"Trait"
 .gain:[4,6]
 .tx:"You must specify the trait."
+
+Smelly:
+.gain:[7,11]
+.tx:"Your smell the first thing people notice about you"
+
+

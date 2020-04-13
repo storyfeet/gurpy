@@ -3,6 +3,8 @@
   <g transform="translate(20,20) " >
     
 
+
+
 <rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
 <line x1="36.6px" y1="124.848px" x2="1183.3999999999999px" y2="124.848px" fill="blue" stroke="blue" stroke-width="12.200000000000001px"  stroke-linecap="round"/>
 <text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Tech Wizard</text>
@@ -37,9 +39,11 @@
   <g transform="translate(1240,20) " >
     
 
+
+
 <rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
 <line x1="36.6px" y1="124.848px" x2="1183.3999999999999px" y2="124.848px" fill="blue" stroke="blue" stroke-width="12.200000000000001px"  stroke-linecap="round"/>
-<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Second Language(Name)</text>
+<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Second Language( Name )</text>
 
     <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">For each level, choose a language from</text>
 
@@ -66,6 +70,8 @@
   </g>
   <g transform="translate(20,713.6) " >
     
+
+
 
 <rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
 <line x1="36.6px" y1="124.848px" x2="1183.3999999999999px" y2="124.848px" fill="blue" stroke="blue" stroke-width="12.200000000000001px"  stroke-linecap="round"/>
@@ -103,9 +109,11 @@
   <g transform="translate(1240,713.6) " >
     
 
+
+
 <rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
 <line x1="36.6px" y1="124.848px" x2="1183.3999999999999px" y2="124.848px" fill="blue" stroke="blue" stroke-width="12.200000000000001px"  stroke-linecap="round"/>
-<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Good Reputation(Trait)</text>
+<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Good Reputation( Trait )</text>
 
     <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">You must specify the trait.</text>
 
@@ -130,6 +138,8 @@
   </g>
   <g transform="translate(20,1407.2) " >
     
+
+
 
 <rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
 <line x1="36.6px" y1="124.848px" x2="1183.3999999999999px" y2="124.848px" fill="blue" stroke="blue" stroke-width="12.200000000000001px"  stroke-linecap="round"/>
@@ -165,9 +175,11 @@
   <g transform="translate(1240,1407.2) " >
     
 
+
+
 <rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
 <line x1="36.6px" y1="124.848px" x2="1183.3999999999999px" y2="124.848px" fill="blue" stroke="blue" stroke-width="12.200000000000001px"  stroke-linecap="round"/>
-<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Acute Sense(Sense)</text>
+<text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Acute Sense( Sense )</text>
 
     <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">Increased perception whenever your</text>
 
@@ -194,6 +206,8 @@
   </g>
   <g transform="translate(20,2100.8) " >
     
+
+
 
 <rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
 <line x1="36.6px" y1="124.848px" x2="1183.3999999999999px" y2="124.848px" fill="blue" stroke="blue" stroke-width="12.200000000000001px"  stroke-linecap="round"/>
@@ -227,6 +241,8 @@
   <g transform="translate(1240,2100.8) " >
     
 
+
+
 <rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
 <line x1="36.6px" y1="124.848px" x2="1183.3999999999999px" y2="124.848px" fill="blue" stroke="blue" stroke-width="12.200000000000001px"  stroke-linecap="round"/>
 <text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Animal Empathy</text>
@@ -259,6 +275,8 @@
   <g transform="translate(20,2794.4) " >
     
 
+
+
 <rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
 <line x1="36.6px" y1="124.848px" x2="1183.3999999999999px" y2="124.848px" fill="blue" stroke="blue" stroke-width="12.200000000000001px"  stroke-linecap="round"/>
 <text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Catfall</text>
@@ -290,6 +308,8 @@
   </g>
   <g transform="translate(1240,2794.4) " >
     
+
+
 
 <rect x="0px" y="0px" width="1220px" height="693.6px"  fill="white" stroke="black" stroke-width="5px"  />
 <line x1="36.6px" y1="124.848px" x2="1183.3999999999999px" y2="124.848px" fill="blue" stroke="blue" stroke-width="12.200000000000001px"  stroke-linecap="round"/>

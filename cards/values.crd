@@ -1,6 +1,6 @@
 def value:
 .type:value
-.gain:3
+.gain:7
 .tx:"You value this muchly and will do anything for it"
 
 Truth:
@@ -10,9 +10,6 @@ Truth:
 .params:"For Who"
 .tx:"You will do anything for this person, though not necessarily what they tell you"
 
-Romance:
-
-
 
 Friendship:
 .tx:"You alway seek to bring people into your frienship circle, and will do anything for a friend."
@@ -21,3 +18,22 @@ Friendship:
 .tx:"You will never abandon the mission you have accepted"
 
 Family:
+
+Wealth:
+.tx:"You must have the money, and the things. Nothing. Your personal fortune is what your are building"
+
+"Your Promise":
+.tx:"You will do anything to keep a promise you make"
+
+Generosity:
+.gain:10
+.tx:"You will give anything to anyone as they have need"
+
+Rebel:
+.tx:"You refuse to do whatever those in authority tell you"
+
+Power:
+.tx:"You love to be able to make people do what you tell them"
+
+Discovery:
+.tx:"New things excite you, and you will do anything to find out more about them"
