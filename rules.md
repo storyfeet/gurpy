@@ -10,13 +10,15 @@ Dice are all d6:
 for each dice roll.
 rolls are :
     1: fail -1
-    2,3: Nothing 0 
-    4,5: Success 1
+    2: Nothing 0 
+    3,4,5: Success 1
     6: Double Success 2
 
-Negative score is Crit fail.
+Add together the total points.
+Less than the required result is a failure.
+zero will harml you in some way.
+Negative score is Crit fail. This could go very bad.
 Score above passnum is success.
-else normal fail.
 
 
 Money is handled in pounds £. Items Every level of wealth allows you to ignore one more 0 in the cost of purchases.
@@ -53,7 +55,13 @@ Rolls against Target:
     Intimidate:
     
 
-Combat:
+## Combat
+Attacker rolls Accueracy against Defenders Evade.
+Attacker rolls "Attack + a dice for each leftover accuracy" against Defenders Defense. 
+1 damage per level above.
+If the attackers rolls a crit fail on either point. The attacker takes 1 damage.
+
+
     
 
 

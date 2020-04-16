@@ -1,3 +1,9 @@
 "Short Sword":
-.cost:"£50"
+.cost:["£50",6]
 .tx:
+
+"Wooden Shield":
+.cost:["£25",5]
+
+
+
