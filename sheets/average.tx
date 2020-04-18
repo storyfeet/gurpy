@@ -1,0 +1,14 @@
+
+#The average player gets 3 dice for every task.
+
+"Mr Average":
+.speed:4,
+.hp:5,
+."combat":["Quick Attack","Moving Attack","Dodge","Aimed Attack","Charge"]
+
+
+
+
+
+
+

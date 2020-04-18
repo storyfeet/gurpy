@@ -1,6 +1,6 @@
 #!/usr/bin/env ion
 
-if any_cards -f cards/skills.crd cards/diss.crd cards/values.crd -t main.tp -o out/skills -a 2 -d 5
+if any_cards -f cards/skills.crd cards/diss.crd cards/values.crd cards/combat.crd -t main.tp -o out/skills -a 2 -d 5
     echo "Anycards Success"
 else
     echo "any cards failure"

@@ -19,6 +19,12 @@
 
 
 
+
+
+
+
+
+
 <text x="20px" y="624.24px" font-size="61px" font-family="Arial" >cost = 5 / 10 / 15</text>
 
 
@@ -55,6 +61,12 @@
 
 
 
+
+
+
+
+
+
 <text x="20px" y="624.24px" font-size="61px" font-family="Arial" >cost = 10 / 18 / 26</text>
 
 
@@ -76,6 +88,12 @@
 <text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Swimmer</text>
 
     <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">You swin fast, strong, and gracefully</text>
+
+
+
+
+
+
 
 
 
@@ -117,6 +135,12 @@
 
 
 
+
+
+
+
+
+
 <text x="20px" y="624.24px" font-size="61px" font-family="Arial" >cost = 4 / 8 / 14</text>
 
 
@@ -140,6 +164,12 @@
     <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">You know where you are, and how to get</text>
 
     <text x="610px" y="269.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">to where you want.</text>
+
+
+
+
+
+
 
 
 
@@ -185,6 +215,12 @@
 
 
 
+
+
+
+
+
+
 <text x="20px" y="624.24px" font-size="61px" font-family="Arial" >gain = 15</text>
 
 
@@ -219,6 +255,12 @@
 
 
 
+
+
+
+
+
+
 <text x="20px" y="624.24px" font-size="61px" font-family="Arial" >gain = -7</text>
 
 
@@ -238,6 +280,12 @@
 <text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Clumsy</text>
 
     <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">You knock things off of stuff</text>
+
+
+
+
+
+
 
 
 
@@ -283,6 +331,12 @@
 
 
 
+
+
+
+
+
+
 <text x="20px" y="624.24px" font-size="61px" font-family="Arial" >gain = 12 / 20</text>
 
 
@@ -308,6 +362,12 @@
     <text x="610px" y="269.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">freeze or run away from scary things</text>
 
     <text x="610px" y="330.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">quickly</text>
+
+
+
+
+
+
 
 
 

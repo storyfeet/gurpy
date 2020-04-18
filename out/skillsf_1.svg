@@ -29,6 +29,12 @@
 
 
 
+
+
+
+
+
+
 <text x="20px" y="624.24px" font-size="61px" font-family="Arial" >cost = 10 / 20 / 30</text>
 
 
@@ -54,6 +60,12 @@
     <text x="610px" y="269.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">gain extra dice if terrain is good for</text>
 
     <text x="610px" y="330.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">hiding</text>
+
+
+
+
+
+
 
 
 
@@ -91,7 +103,13 @@
 
 
 
+
+
 <rect x="1098px" y="34.68px" width="73.2px" height="73.2px"  fill="orange" stroke="black" stroke-width="1px"  />
+
+
+
+
 
 
 
@@ -120,6 +138,12 @@
     <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">Whenever you take unnecessary risks +n</text>
 
     <text x="610px" y="269.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">to all skill rolls</text>
+
+
+
+
+
+
 
 
 
@@ -163,6 +187,12 @@
 
 
 
+
+
+
+
+
+
 <text x="20px" y="624.24px" font-size="61px" font-family="Arial" >cost = 6 / 12 / 15</text>
 
 
@@ -191,7 +221,13 @@
 
 
 
+
+
+
 <rect x="1098px" y="34.68px" width="73.2px" height="73.2px"  fill="red" stroke="black" stroke-width="1px"  />
+
+
+
 
 
 
@@ -223,7 +259,13 @@
 
 
 
+
+
+
 <rect x="1098px" y="34.68px" width="73.2px" height="73.2px"  fill="red" stroke="black" stroke-width="1px"  />
+
+
+
 
 
 
@@ -257,7 +299,13 @@
 
 
 
+
+
+
 <rect x="1098px" y="34.68px" width="73.2px" height="73.2px"  fill="red" stroke="black" stroke-width="1px"  />
+
+
+
 
 
 
@@ -293,6 +341,12 @@
 
 
 
+
+
+
+
+
+
 <text x="20px" y="624.24px" font-size="61px" font-family="Arial" >cost = 4 / 6 / 8</text>
 
 
@@ -314,6 +368,12 @@
 <text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Climb</text>
 
     <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">+2 to any climb situations.</text>
+
+
+
+
+
+
 
 
 

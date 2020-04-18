@@ -9,40 +9,48 @@
 {{$sy := mul .h 0.3 -}}
 {{$sx := mul .w 0.5 -}}
 {{$lh := mul .w 0.05 -}}
-{{$fnt := (fnt $lh "Arial") -}}
+{{$font := (font $lh "Arial") -}}
 
 <rect {{xywh 0 0 .w .h}} {{fl_stk "white" "black" 5}} />
 <line x1="{{mul 0.03 .w}}px" y1="{{$bar_y}}px" x2="{{mul 0.97 .w}}px" y2="{{$bar_y}}px" {{fl_stk $bar_col $bar_col (mul .w 0.01)}} stroke-linecap="round"/>
-<text x="30px" y="{{mul .h 0.15}}px" {{fnt $tit_size "Arial" -}} font-weight="bold" vertical-align="text-top">{{$title}}</text>
+<text x="30px" y="{{mul .h 0.15}}px" {{font $tit_size "Arial" -}} font-weight="bold" vertical-align="text-top">{{$title}}</text>
 {{range $k, $v := wrap .data.tx 38}}
-    <text x="{{$sx}}px" y="{{add $sy (mul $lh $k)}}px" {{$fnt -}} text-anchor="middle">{{xml_es $v}}</text>
+    <text x="{{$sx}}px" y="{{add $sy (mul $lh $k)}}px" {{$font -}} text-anchor="middle">{{xml_es $v}}</text>
 {{end}}
 
 {{$f_lh := mul .w  0.04 -}}
 {{$f_sy := mul .h 0.75 -}}
 {{if .data.flavour}}{{range $k,$v := wrap .data.flavour 45}}
-    <text x="{{$sx}}px" y="{{add $f_sy (mul $f_lh $k)}}px" {{fnt $f_lh "Arial" -}} text-anchor="middle" font-style="italic">{{xml_es $v}}</text>
+    <text x="{{$sx}}px" y="{{add $f_sy (mul $f_lh $k)}}px" {{font $f_lh "Arial" -}} text-anchor="middle" font-style="italic">{{xml_es $v}}</text>
 {{end}}{{end}}
 
-{{if .data.passive}}
-<rect {{xywh (mul .w 0.9) (mul .h 0.05) (mul .w 0.06) (mul .w 0.06)}} {{fl_stk "orange" "black" 1}} />
+{{$p_step := mul .w 0.1}}
+{{$pass_pos := sub .w $p_step}}
+{{if (has .data.passive)}}
+<rect {{xywh $pass_pos (mul .h 0.05) (mul .w 0.06) (mul .w 0.06)}} {{fl_stk "orange" "black" 1}} />
 {{end}}
 
-{{if .data.combat}}
-<rect {{xywh (mul .w 0.9) (mul .h 0.05) (mul .w 0.06) (mul .w 0.06)}} {{fl_stk "red" "black" 1}} />
+{{$combat_pos := b_sel .data.passive (sub $pass_pos $p_step) ($pass_pos)}}
+{{if (has .data.combat)}}
+<rect {{xywh $combat_pos (mul .h 0.05) (mul .w 0.06) (mul .w 0.06)}} {{fl_stk "red" "black" 1}} />
+{{end}}
+
+{{$avg_pos := b_sel .data.combat (sub $combat_pos $p_step) $combat_pos}}
+{{if (has .data.avg)}}
+<rect {{xywh $avg_pos (mul .h 0.05) (mul .w 0.06) (mul .w 0.06)}} {{fl_stk "fuchsia" "black" 1}} />
 {{end}}
 
 {{if .data.cost}}
-<text x="20px" y="{{mul 0.9 .h}}px" {{$fnt}}>{{xml_es "cost = " (sep " / " .data.cost) }}</text>
+<text x="20px" y="{{mul 0.9 .h}}px" {{$font}}>{{xml_es "cost = " (sep " / " .data.cost) }}</text>
 {{end}}
 
 {{if .data.gain}}
-<text x="20px" y="{{mul 0.9 .h}}px" {{$fnt}}>{{xml_es "gain = " (sep " / " .data.gain) }}</text>
+<text x="20px" y="{{mul 0.9 .h}}px" {{$font}}>{{xml_es "gain = " (sep " / " .data.gain) }}</text>
 {{end}}
 
 {{$excl := as_list .data.exclude}}
-{{$ex_len := s_len $excl}}
+{{$ex_len := safe_len $excl}}
 {{$ex_lh := mul $h 0.05}}
 {{range $k,$v := $excl}}
-    <text x="{{mul $w 0.95}}px" y="{{add $h (mul -1 $ex_len $ex_lh) (mul $ex_lh $k)}}px" {{fnt $ex_lh "Arial" }} text-anchor="end" fill="red">! {{xml_es $v}}</text>
+    <text x="{{mul $w 0.95}}px" y="{{add $h (mul -1 $ex_len $ex_lh) (mul $ex_lh $k)}}px" {{font $ex_lh "Arial" }} text-anchor="end" fill="red">! {{xml_es $v}}</text>
 {{end}}

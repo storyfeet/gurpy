@@ -107,8 +107,8 @@ Jump:
 .tx:"Increased jump distance and height jump distances"
 
 Luck:
-.cost:15
-.tx:"Re-roll any '2's"
+.cost:[15,25,35]
+.tx:"Re-roll one '2' per level on every test. If you succeed because you did this, it will be considered a fluke"
 
 "Night Vision":
 .cost:10

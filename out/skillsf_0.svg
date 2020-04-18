@@ -25,6 +25,12 @@
 
 
 
+
+
+
+
+
+
 <text x="20px" y="624.24px" font-size="61px" font-family="Arial" >cost = 4 / 10</text>
 
 
@@ -48,6 +54,12 @@
     <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">For each level, choose a language from</text>
 
     <text x="610px" y="269.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">the list of common languages</text>
+
+
+
+
+
+
 
 
 
@@ -95,6 +107,12 @@
 
 
 
+
+
+
+
+
+
 <text x="20px" y="624.24px" font-size="61px" font-family="Arial" >cost = 8 / 15 / 35</text>
 
 
@@ -116,6 +134,12 @@
 <text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Good Reputation( Trait )</text>
 
     <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">You must specify the trait.</text>
+
+
+
+
+
+
 
 
 
@@ -161,6 +185,12 @@
 
 
 
+
+
+
+
+
+
 <text x="20px" y="624.24px" font-size="61px" font-family="Arial" >cost = 10 / 25 / 40 / 70</text>
 
 
@@ -184,6 +214,12 @@
     <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">Increased perception whenever your</text>
 
     <text x="610px" y="269.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">chosen sense fits</text>
+
+
+
+
+
+
 
 
 
@@ -227,6 +263,12 @@
 
 
 
+
+
+
+
+
+
 <text x="20px" y="624.24px" font-size="61px" font-family="Arial" >cost = 5</text>
 
 
@@ -252,6 +294,12 @@
     <text x="610px" y="269.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">emotions and tells. You can also use</text>
 
     <text x="610px" y="330.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">your influence on animals as if human.</text>
+
+
+
+
+
+
 
 
 
@@ -295,6 +343,12 @@
 
 
 
+
+
+
+
+
+
 <text x="20px" y="624.24px" font-size="61px" font-family="Arial" >cost = 5 / 10 / 15</text>
 
 
@@ -325,7 +379,13 @@
 
 
 
+
+
+
 <rect x="1098px" y="34.68px" width="73.2px" height="73.2px"  fill="red" stroke="black" stroke-width="1px"  />
+
+
+
 
 
 

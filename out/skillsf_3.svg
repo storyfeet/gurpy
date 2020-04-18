@@ -21,6 +21,12 @@
 
 
 
+
+
+
+
+
+
 <text x="20px" y="624.24px" font-size="61px" font-family="Arial" >cost = 5 / 9 / 13</text>
 
 
@@ -44,6 +50,12 @@
     <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">More persuasive when lying, or</text>
 
     <text x="610px" y="269.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">tricking people</text>
+
+
+
+
+
+
 
 
 
@@ -83,7 +95,13 @@
 
 
 
+
+
+
 <rect x="1098px" y="34.68px" width="73.2px" height="73.2px"  fill="red" stroke="black" stroke-width="1px"  />
+
+
+
 
 
 
@@ -119,7 +137,13 @@
 
 
 
+
+
+
 <rect x="1098px" y="34.68px" width="73.2px" height="73.2px"  fill="red" stroke="black" stroke-width="1px"  />
+
+
+
 
 
 
@@ -153,6 +177,12 @@
 
 
 
+
+
+
+
+
+
 <text x="20px" y="624.24px" font-size="61px" font-family="Arial" >cost = 4 / 8 / 10</text>
 
 
@@ -174,6 +204,12 @@
 <text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Actor</text>
 
     <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">Pretend to be any person you need to be</text>
+
+
+
+
+
+
 
 
 
@@ -215,6 +251,12 @@
 
 
 
+
+
+
+
+
+
 <text x="20px" y="624.24px" font-size="61px" font-family="Arial" >cost = 8 / 15 / 20</text>
 
 
@@ -236,6 +278,12 @@
 <text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Pilot</text>
 
     <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">You can fly ar drive anything</text>
+
+
+
+
+
+
 
 
 
@@ -277,6 +325,12 @@
 
 
 
+
+
+
+
+
+
 <text x="20px" y="624.24px" font-size="61px" font-family="Arial" >cost = 8 / 15 / 26</text>
 
 
@@ -300,6 +354,12 @@
     <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">You know all about &lt;Subject&gt; maybe</text>
 
     <text x="610px" y="269.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">even more than the GM</text>
+
+
+
+
+
+
 
 
 

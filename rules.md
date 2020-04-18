@@ -1,3 +1,6 @@
+Key Terms:
+Modifier -- How much better/worse are you at something than the average person.
+
 The average person gets 2 dice at every task, this is measured off against the difficulty of the task.
 Every level above 2 gains you a dice in the chosen skill.
 
@@ -35,7 +38,6 @@ Averages:
     Speed : 4mph and 4 squares per turn
     HP: 5
 
-
 Successes Required: 
     Climb Wall:  Height(m) ?slippy{+1} ?grippy{-1}
     Jump Height : (Height(m)-1)*2
@@ -56,12 +58,12 @@ Rolls against Target:
     
 
 ## Combat
-Attacker rolls Accueracy against Defenders Evade.
-Attacker rolls "Attack + a dice for each leftover accuracy" against Defenders Defense. 
-1 damage per level above.
-If the attackers rolls a crit fail on either point. The attacker takes 1 damage.
 
+Resolving an Attack: 
+"Attacker rolls Accuracy against Defenders Evade.
+    Attacker rolls "Attack + a dice for each leftover accuracy" against Defenders Defense. 
+    1 damage per level above.
+    If the attackers rolls a crit fail on either point. The attacker takes 1 damage."
 
-    
-
+Movement
 
