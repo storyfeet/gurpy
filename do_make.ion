@@ -1,17 +1,35 @@
 #!/usr/bin/env ion
 
 if any_cards -f cards/skills.crd cards/diss.crd cards/values.crd cards/combat.crd -t main.tp -o out/skills -a 2 -d 5
-    echo "Anycards Success"
+    echo "Skill Cards Generated Success"
 else
-    echo "any cards failure"
+    echo "Skill Cards failure"
     exit
 end
 
 for x in "out/skillsf_*.svg"
+    echo "Converting $x"
     let name=$(echo "$x" | cut -f 1 -d '.') 
     inkscape -f $x -A ${name}.pdf
+    echo "done"
 end
 
 pdfunite out/skillsf_*.pdf out/all_skills.pdf
 
+# Names Cards section
 
+if any_cards -f cards/names.crd -t names.tp -o out/names -a 2 -d 5
+    echo "Names cards success"
+else
+    echo "Names Cards failure"
+    exit
+end
+
+for x in "out/namesf_*.svg"
+    echo "Converting $x"
+    let name=$(echo "$x" | cut -f 1 -d '.') 
+    inkscape -f $x -A ${name}.pdf
+    echo "done"
+end
+
+pdfunite out/namesf_*.pdf out/all_names.pdf
