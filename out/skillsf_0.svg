@@ -133,7 +133,11 @@
 <line x1="36.6px" y1="124.848px" x2="1183.3999999999999px" y2="124.848px" fill="blue" stroke="blue" stroke-width="12.200000000000001px"  stroke-linecap="round"/>
 <text x="30px" y="104.04px" font-size="85.4px" font-family="Arial" font-weight="bold" vertical-align="text-top">Good Reputation( Trait )</text>
 
-    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">You must specify the trait.</text>
+    <text x="610px" y="208.08px" font-size="61px" font-family="Arial" text-anchor="middle">You must specify the trait. eg: Strong</text>
+
+    <text x="610px" y="269.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">/ Kind / Funny / Heroic / Trustworthy</text>
+
+    <text x="610px" y="330.08000000000004px" font-size="61px" font-family="Arial" text-anchor="middle">/ Other</text>
 
 
 

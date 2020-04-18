@@ -22,7 +22,7 @@ For each level, you can add a zero to both those numbers."
 "Good Reputation":
 .params:"Trait"
 .cost:[2,4,6]
-.tx:"You must specify the trait."
+.tx:"You must specify the trait. eg: Strong / Kind / Funny / Heroic / Trustworthy / Other"
 
 "Social Standing":
 .cost:[10,25,40,70]
