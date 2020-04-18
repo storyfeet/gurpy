@@ -3,9 +3,16 @@
 
 {{$gapx := div .w 8.0}}
 {{$gapy := div .h 10.0 }}
-{{$sx := div .w 7.0}}
-{{$sy := mul .h 0.3}}
-{{$ft := font (mul .w 0.05) "Arial"}}
+{{$sx := mul .w 0.2}}
+{{$sy := mul .h 0.4}}
+{{$ft := font (mul .w 0.04) "Arial"}}
+
+{{range $k,$v :=( num_range 1 7 )}}
+    <text {{xy (add $sx (mul -1 $gapx)) (add $sy (mul $k $gapy)) }}
+            {{$ft}} >{{$v}}</text>
+    <text {{xy (add $sx (mul $k $gapx)) (add $sy (mul -1 $gapy)) }}
+            {{$ft}} >{{$v}}</text>
+{{end}}
 
 {{range $kx,$vx := .data.dat }}
     {{range $ky, $vy := $vx }}

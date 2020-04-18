@@ -1,8 +1,40 @@
 
-Aaaaaa:
+Aaa:
 .dat:[[bar,dan,ag,pa,kab,cra],
    [sta,aarb,gad,ast,pat,daf],
    [ha,had,han,chap,acha,ata],
    [ant,pan,spad,art,aja,arg],
    [spa,la,pla,lap,lan,lad],
    [fala,laf,rad,wa,wawa,fawn]]
+
+Bbb:
+.dat:[[bag,bun,bob,bade,bas,boo],
+    [obo,umb,abe,eba,ebi,ibs],
+    [oob,anb,rab,tab,cab,dab],
+    [bed,bog,bri,brai,bir,bu],
+    [bab,bub,bob,bib,beb,byb],
+    [bex,hab,jab,fib,geb,hub]]
+
+Ccc:
+.dat:[[cat,car,ces,cru,chu,crop],
+    [cas,cai,cred,cra,cap,cur],
+    [ace,ecl,iccy,ice,uck,ock],
+    [cod,ocr,ocl,acu,ech,ach],
+    [ooc,boc,doc,fac,xec,sec],
+    [pec,poc,loc,sac,gac,wic]]
+
+Ddd:
+.dat:[[dare,dad,dem,did,dude,dop],
+    [dun,do,dee,duf,dap,da],
+    [ode,add,ade,udd,edo,ids],
+    [ard,erd,eed,ad,end,und],
+    [adr,edj,odi,ods,ads,rda],
+    [ord,ard,uhd,ahd,hid,lid]]
+
+Eee:
+.dat:[[ebb,eat,ere,end,ech,ear],
+    [epe,ert,ecs,eff,ess,equ],
+    [aer,red,ted,pet,bet,fret],
+    [len,je,jet,tea,wen,fee],
+    [gre,tre,see,fle,ale,pree],
+    [me,que,ine,ane,vee,cree]]
