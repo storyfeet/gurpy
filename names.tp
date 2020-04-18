@@ -4,13 +4,13 @@
 {{$gapx := div .w 8.0}}
 {{$gapy := div .h 10.0 }}
 {{$sx := div .w 7.0}}
-{{$sy := mul .h 0.2}}
+{{$sy := mul .h 0.3}}
+{{$ft := font (mul .w 0.05) "Arial"}}
 
-{{range $vx := .data.dat }}
-    {{range $vy := $vx }}
-        {{/*<text {{xy (add $sx (mul $kx $gapx)) (add $sy (mul $ky $gapy)) }}
-            {{font (mul .w 0.05) "Arial"}} >{{$vy}}</text>*/}}
-        <text>{{$vy}}</text>
+{{range $kx,$vx := .data.dat }}
+    {{range $ky, $vy := $vx }}
+        <text {{xy (add $sx (mul $kx $gapx)) (add $sy (mul $ky $gapy)) }}
+            {{$ft}} >{{$vy}}</text>
     {{end}}
 {{end}}
 

@@ -10,124 +10,125 @@
 
 
 
+
     
-        
-        <text>bar</text>
+        <text x="174.28571428571428px" y="208.08px" 
+            font-size="61px" font-family="Arial"  >bar</text>
     
-        
-        <text>dan</text>
+        <text x="174.28571428571428px" y="277.44px" 
+            font-size="61px" font-family="Arial"  >dan</text>
     
-        
-        <text>ag</text>
+        <text x="174.28571428571428px" y="346.8px" 
+            font-size="61px" font-family="Arial"  >ag</text>
     
-        
-        <text>pa</text>
+        <text x="174.28571428571428px" y="416.15999999999997px" 
+            font-size="61px" font-family="Arial"  >pa</text>
     
-        
-        <text>kab</text>
+        <text x="174.28571428571428px" y="485.52px" 
+            font-size="61px" font-family="Arial"  >kab</text>
     
-        
-        <text>cra</text>
+        <text x="174.28571428571428px" y="554.88px" 
+            font-size="61px" font-family="Arial"  >cra</text>
     
 
     
-        
-        <text>sta</text>
+        <text x="326.7857142857143px" y="208.08px" 
+            font-size="61px" font-family="Arial"  >sta</text>
     
-        
-        <text>aarb</text>
+        <text x="326.7857142857143px" y="277.44px" 
+            font-size="61px" font-family="Arial"  >aarb</text>
     
-        
-        <text>gad</text>
+        <text x="326.7857142857143px" y="346.8px" 
+            font-size="61px" font-family="Arial"  >gad</text>
     
-        
-        <text>ast</text>
+        <text x="326.7857142857143px" y="416.15999999999997px" 
+            font-size="61px" font-family="Arial"  >ast</text>
     
-        
-        <text>pat</text>
+        <text x="326.7857142857143px" y="485.52px" 
+            font-size="61px" font-family="Arial"  >pat</text>
     
-        
-        <text>daf</text>
-    
-
-    
-        
-        <text>ha</text>
-    
-        
-        <text>had</text>
-    
-        
-        <text>han</text>
-    
-        
-        <text>chap</text>
-    
-        
-        <text>acha</text>
-    
-        
-        <text>ata</text>
+        <text x="326.7857142857143px" y="554.88px" 
+            font-size="61px" font-family="Arial"  >daf</text>
     
 
     
-        
-        <text>ant</text>
+        <text x="479.2857142857143px" y="208.08px" 
+            font-size="61px" font-family="Arial"  >ha</text>
     
-        
-        <text>pan</text>
+        <text x="479.2857142857143px" y="277.44px" 
+            font-size="61px" font-family="Arial"  >had</text>
     
-        
-        <text>spad</text>
+        <text x="479.2857142857143px" y="346.8px" 
+            font-size="61px" font-family="Arial"  >han</text>
     
-        
-        <text>art</text>
+        <text x="479.2857142857143px" y="416.15999999999997px" 
+            font-size="61px" font-family="Arial"  >chap</text>
     
-        
-        <text>aja</text>
+        <text x="479.2857142857143px" y="485.52px" 
+            font-size="61px" font-family="Arial"  >acha</text>
     
-        
-        <text>arg</text>
-    
-
-    
-        
-        <text>spa</text>
-    
-        
-        <text>la</text>
-    
-        
-        <text>pla</text>
-    
-        
-        <text>lap</text>
-    
-        
-        <text>lan</text>
-    
-        
-        <text>lad</text>
+        <text x="479.2857142857143px" y="554.88px" 
+            font-size="61px" font-family="Arial"  >ata</text>
     
 
     
-        
-        <text>fala</text>
+        <text x="631.7857142857142px" y="208.08px" 
+            font-size="61px" font-family="Arial"  >ant</text>
     
-        
-        <text>laf</text>
+        <text x="631.7857142857142px" y="277.44px" 
+            font-size="61px" font-family="Arial"  >pan</text>
     
-        
-        <text>rad</text>
+        <text x="631.7857142857142px" y="346.8px" 
+            font-size="61px" font-family="Arial"  >spad</text>
     
-        
-        <text>wa</text>
+        <text x="631.7857142857142px" y="416.15999999999997px" 
+            font-size="61px" font-family="Arial"  >art</text>
     
-        
-        <text>wawa</text>
+        <text x="631.7857142857142px" y="485.52px" 
+            font-size="61px" font-family="Arial"  >aja</text>
     
-        
-        <text>fawn</text>
+        <text x="631.7857142857142px" y="554.88px" 
+            font-size="61px" font-family="Arial"  >arg</text>
+    
+
+    
+        <text x="784.2857142857142px" y="208.08px" 
+            font-size="61px" font-family="Arial"  >spa</text>
+    
+        <text x="784.2857142857142px" y="277.44px" 
+            font-size="61px" font-family="Arial"  >la</text>
+    
+        <text x="784.2857142857142px" y="346.8px" 
+            font-size="61px" font-family="Arial"  >pla</text>
+    
+        <text x="784.2857142857142px" y="416.15999999999997px" 
+            font-size="61px" font-family="Arial"  >lap</text>
+    
+        <text x="784.2857142857142px" y="485.52px" 
+            font-size="61px" font-family="Arial"  >lan</text>
+    
+        <text x="784.2857142857142px" y="554.88px" 
+            font-size="61px" font-family="Arial"  >lad</text>
+    
+
+    
+        <text x="936.7857142857142px" y="208.08px" 
+            font-size="61px" font-family="Arial"  >fala</text>
+    
+        <text x="936.7857142857142px" y="277.44px" 
+            font-size="61px" font-family="Arial"  >laf</text>
+    
+        <text x="936.7857142857142px" y="346.8px" 
+            font-size="61px" font-family="Arial"  >rad</text>
+    
+        <text x="936.7857142857142px" y="416.15999999999997px" 
+            font-size="61px" font-family="Arial"  >wa</text>
+    
+        <text x="936.7857142857142px" y="485.52px" 
+            font-size="61px" font-family="Arial"  >wawa</text>
+    
+        <text x="936.7857142857142px" y="554.88px" 
+            font-size="61px" font-family="Arial"  >fawn</text>
     
 
 
