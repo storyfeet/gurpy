@@ -1,5 +1,5 @@
 
-Aaa:
+Aa:
 .dat:[[bar,dan,ag,pa,kab,cra],
    [sta,aarb,gad,ast,pat,daf],
    [ha,had,han,chap,acha,ata],
@@ -7,7 +7,7 @@ Aaa:
    [spa,la,pla,lap,lan,lad],
    [fala,laf,rad,wa,wawa,fawn]]
 
-Bbb:
+Bb:
 .dat:[[bag,bun,bob,bade,bas,boo],
     [obo,umb,abe,eba,ebi,ibs],
     [oob,anb,rab,tab,cab,dab],
@@ -15,7 +15,7 @@ Bbb:
     [bab,bub,bob,bib,beb,byb],
     [bex,hab,jab,fib,geb,hub]]
 
-Ccc:
+Cc:
 .dat:[[cat,car,ces,cru,chu,crop],
     [cas,cai,cred,cra,cap,cur],
     [ace,ecl,iccy,ice,uck,ock],
@@ -23,7 +23,7 @@ Ccc:
     [ooc,boc,doc,fac,xec,sec],
     [pec,poc,loc,sac,gac,wic]]
 
-Ddd:
+Dd:
 .dat:[[dare,dad,dem,did,dude,dop],
     [dun,do,dee,duf,dap,da],
     [ode,add,ade,udd,edo,ids],
@@ -31,10 +31,51 @@ Ddd:
     [adr,edj,odi,ods,ads,rda],
     [ord,ard,uhd,ahd,hid,lid]]
 
-Eee:
+Ee:
 .dat:[[ebb,eat,ere,end,ech,ear],
     [epe,ert,ecs,eff,ess,equ],
     [aer,red,ted,pet,bet,fret],
     [len,je,jet,tea,wen,fee],
     [gre,tre,see,fle,ale,pree],
     [me,que,ine,ane,vee,cree]]
+
+Ff:
+.dat:[[fat,far,fey,fit,fun,fop],
+    [fig,fla,foo,fee,fre,fra],
+    [aft,afe,ofa,ufe,oft,uff],
+    [iff,ift,afa,ifn,ofl,ufa],
+    [gaf,gif,rof,lof,paf,alf],
+    [gulf,huf,jif,wif,quif,iff]]
+
+Gg:
+.dat:[[goth,guff,git,gin,gan,gurt],
+    [gra,gru,gop,got,gax,goat],
+    [age,aga,algi,uge,egu,iggy],
+    [agy,igs,ugh,og,ogu,uga],
+    [aag,ang,eng,ung,urg,dog],
+    [xog,cog,tag,mig,dug,nug]]
+
+Hh:
+.dat:[[hat,had,hur,hip,hop,ham],
+    [hug,hit,hoo,hun,hos,hac],
+    [sho,iha,aht,ohe,ihi,ehr],
+    [thu,thru,tha,tre,tro,tran],
+    [puh,uh,tih,eeh,soh,coh],
+    [jih,feh,stah,bah,vah,moh]]
+
+Ii:
+.dat:[[igh,in,ite,is,ir,ipp],
+    [ittl,int,igu,ish,if,it],
+    [git,him,fin,sip,dip,wit],
+    [tik,pick,fig,sid,air,quip],
+    [sti,rhi,pri,dai,mii,woi],
+    [khi,tri,poi,dri,opi,ati]]
+
+Jj:
+.dat:[[job,jik,jup,jack,jii,jist],
+    [jeer,jap,jud,jat,jot,jal],
+    [aje,iji,oji,ajs,ij,ajo],
+    [haj,taj,raj,maj,poj,irj],
+    [daj,dirj,erj,saj,caj,koj],
+    [rig,lij,ooj,irj,rij,bij]]
+

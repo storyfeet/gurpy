@@ -1,0 +1,25 @@
+"Abenamee Acer":
+.level:"41"
+.attrs:[ Parry,Primitive,"Wealth(2)",
+        "Bad Reputation(Hoarder,2)",
+        "Threat Aware(3)",
+        "Second Language(French)",
+        "Good Reputation(Strong,3)",
+        "Night Vision"
+        "Medic(3)"
+        ]
+
+"Tredager Fijir":
+.level:47
+.costs:"10 + 10 + 10 + 9 +8 + 6 + 8 +6 -20"
+.attrs:[ "Tailor(3)",
+    "Fearless(1)",
+    "Acute Sense(Touch,3)",
+    "Shield Block (3)",
+    "Strategist(1)",
+    "Walking Map(1)",
+    "Wealth (1)",
+    "Killer Right Hook(1)",
+    "Clumsy(3)"
+    ]
+
