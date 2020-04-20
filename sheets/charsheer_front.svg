@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.88907127"
-     inkscape:cx="395.28402"
-     inkscape:cy="1098.4543"
+     inkscape:zoom="0.44453563"
+     inkscape:cx="396.85039"
+     inkscape:cy="561.25984"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -44,7 +44,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -62,13 +62,13 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.05555534px;line-height:1.25;font-family:Acme;-inkscape-font-specification:Acme;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="9.6798525"
-       y="15.442549"
+       x="7.2990909"
+       y="13.656978"
        id="text821"><tspan
          sodipodi:role="line"
          id="tspan819"
-         x="9.6798525"
-         y="15.442549"
+         x="7.2990909"
+         y="13.656978"
          style="stroke-width:0.26458332">Name: _________________________________</tspan></text>
     <text
        xml:space="preserve"
@@ -206,36 +206,19 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29166651px;line-height:1.25;font-family:Acme;-inkscape-font-specification:Acme;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="10.942442"
-       y="27.226719"
+       x="102.2736"
+       y="55.466724"
        id="text901"><tspan
          sodipodi:role="line"
          id="tspan899"
-         x="10.942442"
-         y="27.226719"
-         style="stroke-width:0.26458332">Speed : ______      Health : _______</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29166651px;line-height:1.25;font-family:Acme;-inkscape-font-specification:Acme;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="31.842686"
-       y="26.634768"
-       id="text905"><tspan
+         x="102.2736"
+         y="55.466724"
+         style="stroke-width:0.26458332">Speed : ______ </tspan><tspan
          sodipodi:role="line"
-         id="tspan903"
-         x="31.842686"
-         y="26.634768"
-         style="fill:#cccccc;stroke-width:0.26458332">4</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29166651px;line-height:1.25;font-family:Acme;-inkscape-font-specification:Acme;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#cccccc;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="68.298103"
-       y="26.485971"
-       id="text909"><tspan
-         sodipodi:role="line"
-         id="tspan907"
-         x="68.298103"
-         y="26.485971"
-         style="fill:#cccccc;stroke-width:0.26458332">5</tspan></text>
+         x="102.2736"
+         y="62.081306"
+         style="stroke-width:0.26458332"
+         id="tspan864">Health : _______</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29166651px;line-height:1.25;font-family:Acme;-inkscape-font-specification:Acme;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -261,7 +244,7 @@
          x="11.308618"
          y="240.06419"
          style="stroke-width:0.26458332"
-         id="tspan984"></tspan><tspan
+         id="tspan984" /><tspan
          sodipodi:role="line"
          x="11.308618"
          y="246.67877"
@@ -281,7 +264,7 @@
          x="11.308618"
          y="266.52252"
          style="stroke-width:0.26458332"
-         id="tspan992"></tspan><tspan
+         id="tspan992" /><tspan
          sodipodi:role="line"
          x="11.308618"
          y="273.13708"
@@ -308,5 +291,26 @@
          x="9.5230465"
          y="210.1022"
          style="stroke-width:0.26458332">Items:</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.29166651px;line-height:1.25;font-family:Acme;-inkscape-font-specification:Acme;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="8.9278555"
+       y="26.188377"
+       id="text868"><tspan
+         sodipodi:role="line"
+         id="tspan866"
+         x="8.9278555"
+         y="26.188377"
+         style="stroke-width:0.26458332">About  __________________________________________________</tspan><tspan
+         sodipodi:role="line"
+         x="8.9278555"
+         y="32.802959"
+         style="stroke-width:0.26458332"
+         id="tspan870" /><tspan
+         sodipodi:role="line"
+         x="8.9278555"
+         y="39.417545"
+         style="stroke-width:0.26458332"
+         id="tspan872">_________________________________________________________</tspan></text>
   </g>
 </svg>

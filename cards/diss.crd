@@ -34,4 +34,17 @@ Smelly:
 .gain:[7,11]
 .tx:"Your smell the first thing people notice about you"
 
+Ugly:
+.gain:[6,10]
+.tx:"When people first meet you they react unkindly. It takes longer to gain trust with people."
+
+"Missing Limb":
+.params:[Limb]
+.gain:[40]
+.tx:"Lots of things are harder for you, but you make up for it with great humour and other skils."
+
+Compulsion:
+.params:[Trigger,Action]
+.gain:["Max 40"]
+.tx:"Whenever <Trigger>, you must <Action>. Agree on a cost with the GM, depending on the Compulsion."
 
