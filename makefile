@@ -1,6 +1,6 @@
 #!/usr/bin/env ion
 
-SKILLS = cards/skills.crd cards/diss.crd cards/values.crd cards/combat.crd
+SKILLS = cards/skills.crd cards/diss.crd cards/values.crd 
 
 NAMES = cards/names.crd
 

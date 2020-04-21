@@ -1,0 +1,38 @@
+def combat:
+.time:6
+.combat:true
+
+"Quick Attack":
+.time:4
+.test:"Target Evade"
+.tx:"Attack an adjacent enemy, but do not move"
+
+"Moving attack":
+.time:6
+.test:"Target Evade"
+.tx:"Move up to a total of your player speed spaces, attacking an oponant on the move.
+Accuracy -1"
+
+"Aim":
+.time:"?"
+.test:None
+.tx:"For each 2 time cost you take you gain one 'Accuracy' for your next attack. This is voided if you are attacked before your next turn"
+
+"Dodge":
+.time:6
+.tx:"move up to half your 'Speed' spaces. Evade +3 til next turn."
+
+Charge:
+.time:8
+.tx:"Move up to twice your 'Speed' in a straight line (Odd diagonal allowed). Attack everyone in your path."
+
+Medicine:
+.time:6
+.test:2
+.tx:"Apply a potion to yourself or an adjacent target"
+
+Throw rock:
+.time:6
+.test:"Target Evade"
+.attack:-1
+.tx:"If the target is alive roll against evade, other

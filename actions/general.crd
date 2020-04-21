@@ -1,0 +1,30 @@
+Jump:
+.time:5
+.test:"(H -1) * 2"
+.tx:"Jump either up or forward a certain distance. Gain a dice if you have space for a run up. H is the distance in Metres"
+
+Climb Wall:
+.time:9
+.test:"H + S "
+.tx:"Climb up a wall. H is height, S is 1 if slippy or -1 if grippy"
+
+Escape Bonds:
+.time:9
+.test:"W"
+.tx:"Escape from some form of restraint. W is 3 for Cuffs, 2 for Rope, or vary appropriatly for difficulty"
+
+Repair:
+.time:12
+.test:"D"
+.tx:Repair a thing. D is 3 for an Engine, 2 for a Tyre, and 4 for a Wing.
+
+Lift:
+.time:7
+.test:"W * H"
+.tx:"Lift something, W is 1 for every 30kg and H is height in Metres"
+
+"Heavy Throw":6
+.test:"W * (H + D)"
+.tx:"Throw something heavy"
+
+

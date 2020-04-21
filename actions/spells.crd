@@ -1,0 +1,43 @@
+
+
+"Fire Whip":
+.time:2
+.test:4
+.manna:2
+.range:3
+.type:Fire
+.tx:"Damage 1 opponent by <Attack>"
+
+"Shunt":
+.type:Earth
+.test:3
+.range:3
+.tx:
+
+"Dome":
+.type:Earth
+.test:3 + N
+.tx:"Build a solid dome that protects you and anyone else you cover with it. N is the radius of the dome in squares"
+.tx
+
+
+"Levitate":
+.type:Air
+.test:4
+
+"Mirror Image":
+.type:Air
+.test:3
+
+"Guide Arrow":
+.type:Air
+.time:?
+.test:3
+.tx:"Double the accuracy of chosen player until your next turn"
+
+
+"Healing Power":
+.type:Healing
+.time:6
+.test:4
+.tx:"Heal 4 health or 1 status effect. Healing"

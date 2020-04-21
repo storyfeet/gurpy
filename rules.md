@@ -46,10 +46,6 @@ Successes Required:
     Repair: Engine - 3, Tyre - 2, Wing - 4
     Lift:Weight(/30kg) * Height(m)
 
-Healing
-    Hp : n successes heals n-1 hp
-    Poison: 2
-    Frozen: 2
      
 Rolls against Target:
     Pickpocket:Alertness +1
@@ -58,6 +54,9 @@ Rolls against Target:
     
 
 ## Combat
+The combat clock is core to the workings of time and initiative in battle. Faster actions, require you to move less distance on the time clock.
+
+At the beginning of combat each player rolls initiative. The player with the most successes places their marker on the clock first
 
 Resolving an Attack: 
 "Attacker rolls Accuracy against Defenders Evade.

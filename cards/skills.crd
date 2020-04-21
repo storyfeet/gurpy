@@ -52,12 +52,12 @@ Catfall:
 .tx:"You are ready to act fast, and you get to act first. probably. +Initiative" 
 
 "Combat Reflexes":
-.cost:[10,20,30]
-.tx:"You have extraordinry reactions for fighting
-+1 to all active defense
+.cost:[12,24,36]
+.tx:"You have extraordinary reactions for fighting
++1 defense
 +2 to fright checks
 Never Freeze
-+6 to recover Surprise and Stun"
++3 to recover Surprise and Stun"
 
 Stealth:
 .cost:[3,5,10]
@@ -197,9 +197,32 @@ Swimmer:
 
 "Pick Pocket":
 .cost:[4,8,14]
-.tx:"Other peoples things find themself on your person"
+.tx:"Other peoples things seem to find themselves about your person"
 
 "Walking Map":
 .cost:[6,11,16]
 .tx:"You know where you are, and how to get to where you want."
 
+"Healing Magic":
+.cost:[8,14,20]
+.tx:"Gain dice when performing any healing action"
+
+"Earth Magic":
+.cost:[8,14,20]
+.tx:"When the magic involves rocks or trees, you can do it"
+
+"Fire Magic":
+.cost:[8,14,20]
+.tx:"When the magic involves fire or heat, you can do it"
+
+"Water Magic":
+.cost:[8,14,20]
+.tx:"When the magic involves water or ice, you can do it"
+
+"Air Magic":
+.cost:[8,14,20]
+.tx:"When the magic involves Wind or air, You can do it"
+
+"Dark Magic":
+.cost:[8,14,20]
+.tx:"When the magic involves Death, or evil, You can do it"

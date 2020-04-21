@@ -1,0 +1,40 @@
+def Item:
+
+
+"Magnifying Glass":
+.cost:15
+.tx:"Allows you to inspect the anything more closely"
+
+"Telescope":
+.cost:15
+.tx:"Allows you to scope out far away places easily"
+
+"Thieves Tools":
+.cost:25
+.tx:"Helps with opening doors, windows and cases"
+
+"Spanner Set":
+.cost:20
+.tx:"Fixing things is easier when you can twist them"
+
+"Healing Potion":
+.cost:20
+.multibuy:true
+.tx:"Expend to gain 3 dice for a heal action"
+
+"Speed Potion":
+.cost:"20"
+.multibuy:true
+.tx:"Everything takes half the time, for the rest of an encounter"
+
+"Fishing Rod":
+.cost:10
+.tx:"Great when you're by the sea"
+
+"Drinking Bottle":
+.cost:15
+.tx:"Rest up better quicker"
+
+
+"Slingshot":
+.cost:20

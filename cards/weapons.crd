@@ -1,27 +1,39 @@
 def Weapon:
 .type:weapon
-.cost:["£10",5]
+.cost:10
+.range:0
+.speed:0
+.attack:0,
+.accuracy:0
+
+"Dagger":
+.cost:40
+.speed:1
+.attack:1
 
 "Short Sword":
-.cost:["£50",7]
-.tx:"Range 1 : +2 Attack"
+.cost:50
+.range:1
+.attack:2
 
 "Wooden Shield":
-.cost:["£25",5]
+.cost:25
 .tx:"+1 defence"
 
 "Spear":
-.cost:["£40","6"]
+.cost:40
 .tx:"Melee : Range 2 - 3 for melee, Attack +1,
 or throw up to range 8 with attack +2"
 
 "Broad Sword":
-.cost:
+.cost:60
 
 "Crossbow":
-.cost:["£60",8]
-.tx:"Range 1 - 10, Attack 1, Accuracy +1 Takes an action to reload"
-
+.cost:60
+.range:8
+.attack:1
+.accuracy:1
+.tx:"Takes an action to reload"
 
 
 
