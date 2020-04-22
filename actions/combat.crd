@@ -5,10 +5,14 @@ def combat:
 "Quick Attack":
 .time:4
 .test:"Target Evade"
-.tx:"Attack an adjacent enemy, but do not move"
+.tx:"Attack an enemy, without moving"
+
+"Move:
+.time:2
+.test:"Move up to your players speed in spaces"
 
 "Moving attack":
-.time:6
+.time:7
 .test:"Target Evade"
 .tx:"Move up to a total of your player speed spaces, attacking an oponant on the move.
 Accuracy -1"
@@ -36,3 +40,12 @@ Throw rock:
 .test:"Target Evade"
 .attack:-1
 .tx:"If the target is alive roll against evade, other
+
+Inspect:
+.time:10
+.test:"2"
+.tx:"The GM rolls the test for you, and tells you what you notice."
+
+
+
+

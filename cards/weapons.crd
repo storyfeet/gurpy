@@ -2,9 +2,9 @@ def Weapon:
 .type:weapon
 .cost:10
 .range:0
-.speed:0
 .attack:0,
 .accuracy:0
+.speed:0
 
 "Dagger":
 .cost:40
@@ -27,6 +27,9 @@ or throw up to range 8 with attack +2"
 
 "Broad Sword":
 .cost:60
+.speed:-2
+.attack:+3
+.accuracy:-1
 
 "Crossbow":
 .cost:60
@@ -35,11 +38,8 @@ or throw up to range 8 with attack +2"
 .accuracy:1
 .tx:"Takes an action to reload"
 
-
-
-
-
-
-
-
-
+"Slingshot":
+.cost:20
+.range:6
+.attack:1
+.tx:"Throws rocks hard"

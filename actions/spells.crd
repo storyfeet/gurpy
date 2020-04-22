@@ -1,7 +1,10 @@
-
+Focus:
+.time:7
+.test:1
+.tx:"Every success above test, grants you one extra dice for your next magic attack as long as you are not attacked first."
 
 "Fire Whip":
-.time:2
+.time:4
 .test:4
 .manna:2
 .range:3
@@ -16,18 +19,21 @@
 
 "Dome":
 .type:Earth
+.time:8
 .test:3 + N
 .tx:"Build a solid dome that protects you and anyone else you cover with it. N is the radius of the dome in squares"
-.tx
 
 
 "Levitate":
 .type:Air
 .test:4
+.tx:"Lift someone or something into the air without touching it. While active, your other moves take 2 seconds longer and you must retest at 1 every turn."
+
 
 "Mirror Image":
 .type:Air
 .test:3
+.tx:"Create 2 dummies. Whenever you are attacked, the enemy has equal probablilty of hitting the dummies. The dummies have 1 hp and no defence. You make make these dummies of another player should you so desire."
 
 "Guide Arrow":
 .type:Air
@@ -35,9 +41,9 @@
 .test:3
 .tx:"Double the accuracy of chosen player until your next turn"
 
-
 "Healing Power":
 .type:Healing
 .time:6
 .test:4
 .tx:"Heal 4 health or 1 status effect. Healing"
+

@@ -23,8 +23,12 @@ Lift:
 .test:"W * H"
 .tx:"Lift something, W is 1 for every 30kg and H is height in Metres"
 
-"Heavy Throw":6
+"Throw Heavy":6
 .test:"W * (H + D)"
-.tx:"Throw something heavy"
+.tx:"Throw something heavy W is 1 for every 30 kg H and D are Height and Distance in Metres"
+
+"Throw at Target" 
+.test:"D/3 - 2S"
+.tx:"Throw something at a target D is diatance in metres, S is Size of Target in square metres. 
 
 

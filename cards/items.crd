@@ -1,6 +1,5 @@
 def Item:
 
-
 "Magnifying Glass":
 .cost:15
 .tx:"Allows you to inspect the anything more closely"
@@ -35,6 +34,24 @@ def Item:
 .cost:15
 .tx:"Rest up better quicker"
 
+"Hand Cuffs":
+.cost:10
+.tx:Restrain an opponent 
 
-"Slingshot":
-.cost:20
+"Fire Staff":
+.cost:100
+.attack:1
+.range:1
+.tx:"Fire Magic + 1.  Other stats apply to physical"
+
+"Water Staff":
+.cost:100
+.attack:1
+.range:1
+.tx:"Water Magic + 1.  Other stats apply to physical"
+
+"Air Staff":
+.cost:100
+.attack:1
+.range:1
+.tx:"Water Magic + 1.  Other stats apply to physical"
