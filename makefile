@@ -6,7 +6,7 @@ NAMES = cards/names.crd
 
 default:all
 
-all: out/all_names.pdf out/all_skills.pdf
+all: out/all_names.pdf out/all_skills.pdf out/rules.html
 	
 
 clean:
@@ -35,4 +35,5 @@ out/all_names.pdf: $(NAMES)
 	done
 	pdfunite out/namesf_*.pdf out/all_names.pdf
 
-
+out/rules.html:cards/* rules.tp actions/*
+	cardtemplater -t rules.tp > out/rules.html

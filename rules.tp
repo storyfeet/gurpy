@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+</head>
+<h1>Above Average -- Rpg Rules</h1>
+
+{{markdown (exec "cat" "rules.md")}}
+
+<h2>Traits</h2>
+
+{{range $k,$c := load_cards "cards/skills.crd"}}
+<h3>{{$c.name}}{{if has $c.data.params}} ( {{range $n,$p:= as_list $c.data.params}}{{if gt $n 0}} / {{end}}{{$p}}{{end}} ){{end}}</h3>
+<p>{{$c.data.tx}}</p>
+{{if $c.data.flavour}}<p><i>{{$c.data.flavour}}</i></p>{{end}}
+<p>{{range $n, $cs := as_list ($c.data.cost) -}}{{if gt $n 0}} / {{end}}{{$cs}}{{end}}</p>
+{{end}}
+
+
+
+
+</html>

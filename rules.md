@@ -1,5 +1,8 @@
-Key Terms:
-Modifier -- How much better/worse are you at something than the average person.
+## Key Terms
+
+* Modifier : How much better/worse are you at something than the average person.
+
+## Core principles
 
 The average person gets 2 dice at every task, this is measured off against the difficulty of the task.
 Every level above 2 gains you a dice in the chosen skill.
@@ -11,11 +14,13 @@ For every negative trait, lose 1 dice.
 
 Dice are all d6:
 for each dice roll.
-rolls are :
-    1: fail -1
-    2: Nothing 0 
-    3,4,5: Success 1
-    6: Double Success 2
+
+Rolls are :
+
+* 1:        fail -1
+* 2:        Nothing 0 
+* 3,4,5:    Success 1
+* 6:        Double Success 2
 
 Add together the total points.
 Less than the required result is a failure.
