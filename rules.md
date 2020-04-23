@@ -35,21 +35,19 @@ The average person can ignore £10 purchases as long as not too frequent in a da
 A wealthy person may ignore purchases up to £100
 A Very wealthy person may ignore purchases up to £1000
 
-
 No retry without changing something
+
+# Building a character
+
+When building a character, you are dealth three Trait/Value/Skill Cards. This happens 8 times. You may choose which one you like.
+
+All Traits and Skills change your skill levels relative to the average person. Normally this will mean you get 1 extra dice per level of any relevkk
 
 Averages:
     Wealth : £500 ignores £10
     Speed : 4mph and 4 squares per turn
     HP: 5
 
-Successes Required: 
-    Climb Wall:  Height(m) ?slippy{+1} ?grippy{-1}
-    Jump Height : (Height(m)-1)*2
-    Jump Dist : (Dist(m)-1) *2
-    Escape: Cuffs - 3 , Rope - 2 
-    Repair: Engine - 3, Tyre - 2, Wing - 4
-    Lift:Weight(/30kg) * Height(m)
 
      
 Rolls against Target:
