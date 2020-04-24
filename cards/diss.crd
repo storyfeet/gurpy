@@ -7,7 +7,7 @@ Poverty:
 .tx:"You start unable to buy anything equipment or clothes. You must track every penny"
 
 Primative:
-.gain:-7
+.gain:7
 .tx:"You do not understand and cannot use modern technology."
 
 Clumsy:
@@ -45,6 +45,6 @@ Ugly:
 
 Compulsion:
 .params:[Trigger,Action]
-.gain:["Max 40"]
-.tx:"Whenever <Trigger>, you must <Action>. Agree on a cost with the GM, depending on the Compulsion."
+.gain:[20,30,40]
+.tx:"Whenever <Trigger>, you must <Action>. Agree on a cost with the GM, depending on the Compulsion. Agree the compulsion and the level by how costly the compulsion is with the GM"
 

@@ -76,4 +76,7 @@ def Item:
 .tx:"Allows you to carry 4 extra items" 
 .flavour:"But obviously not backpacks"
 
+"Invisible Arrow":
+.cost:10
+.multibuy:true
 

@@ -3,7 +3,7 @@ def value:
 .gain:7
 .tx:"You value this muchly and will do anything for it"
 
-Truth:
+"Value Truth":
 .tx:"You always tell the truth no matter the cost. If you see someone lying you must correct them"
 
 "True Love":
@@ -11,29 +11,31 @@ Truth:
 .tx:"You will do anything for this person, though not necessarily what they tell you"
 
 
-Friendship:
+"Value Friendship":
 .tx:"You alway seek to bring people into your frienship circle, and will do anything for a friend."
 
 "Loyal to the Cause":
 .tx:"You will never abandon the mission you have accepted"
 
-Family:
+"Value Family":
 
-Wealth:
+"Value Wealth":
 .tx:"You must have the money, and the things. Nothing. Your personal fortune is what your are building"
 
-"Your Promise":
+"Value Your Promise":
 .tx:"You will do anything to keep a promise you make"
 
-Generosity:
+"Value Generosity":
 .gain:10
 .tx:"You will give anything to anyone as they have need"
 
-Rebel:
+Rebelious:
+.gain:10
 .tx:"You refuse to do whatever those in authority tell you"
 
-Power:
+"Value Power":
 .tx:"You love to be able to make people do what you tell them"
+.gain:7
 
-Discovery:
+"Value Discovery":
 .tx:"New things excite you, and you will do anything to find out more about them"

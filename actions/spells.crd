@@ -1,3 +1,6 @@
+def spells:
+.magic:true
+
 Focus:
 .time:7
 .test:1
@@ -75,4 +78,8 @@ tx:"Hit with water, Not only does it do damage, but it leaves target cold and we
 .test:4
 .tx:"Make someone invisible. Requires Concentration"
 
+Shapeshift:
+.type:Water
+.test:5
+.tx:"Take on the shape of anything that is a similarsize yo you."
 

@@ -247,4 +247,7 @@ Swimmer:
 .cost:[10,20]
 .tx:"Learn magic more quickly than most people. While this does not gain you a dice directly, in any kind of magic you gain Double/Triple Experience points"
 
+Dancing:
+.cost:[6,10,14]
+.tx:"You are a highly skilled dancer, you are light on your feet and move grace"
 

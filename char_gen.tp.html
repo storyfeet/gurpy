@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+</head>
+<body>
+    <h1>Gurpy Character Generator</h1>
+    <p>Cost = <span id="sp_cost">0</span></p>
+    <div id="card_space">
+    </div>
+
+
+<script>
+
+
+let traits = [
+    {{range $k,$c := load_cards "cards/skills.crd" "cards/diss.crd" "cards/values.crd" -}}
+    {{- if gt $k 0}},{{end}}
+{
+    name:"{{$c.name}}",
+    {{if has $c.data.cost -}}cost:[{{sep "," (as_list ($c.data.cost)) }}]{{end -}}
+    {{if has $c.data.gain -}}gain:[{{sep "," (as_list ($c.data.gain)) }}]{{end}}
+}
+    {{- end}}
+];
+
+let names = [
+]
+
+var char_traits = {};
+
+
+function change_trait(trait,lev, cost){
+    char_traits[trait] = {
+        level:lev,
+        cost:cost,
+    }
+    let total_cost = 0;
+    for (t in char_traits){
+        total_cost += char_traits[t].cost;
+    }
+    console.log(`cost = ${total_cost}`);
+    document.getElementById("sp_cost").innerHTML = total_cost;
+}
+
+function levels(card){
+    let res = [0];
+    if (card.gain ){
+        for (let i = 0; i < card.gain.length;i++){
+            res.push(-card.gain[i]);
+        }
+    }
+    if (card.cost) {
+        for (let i = 0; i < card.cost.length;i++){
+            res.push(card.cost[i]);
+        }
+    }
+    return res;
+}
+
+function prepare (){
+    console.log("Loaded"); 
+    let ds = document.getElementById("card_space");
+    console.log("ds = ",ds);
+    for (i = 0; i < 10; i++){
+        let n = Math.floor(Math.random() * traits.length );
+        let tname = traits[n].name;
+        char_traits[tname] = {
+            level:0,
+            cost:0,
+        };
+        let dv = document.createElement("DIV");
+        dv.innerHTML += tname;
+        let sel = document.createElement("SELECT");
+        let levs = levels(traits[n]);
+        sel.onchange = function(){
+            console.log("LOCALCHANGE");
+            change_trait(tname,this.value,levs[this.value]);
+        };
+        for(l = 0;l < levs.length; l++){
+            let op = document.createElement("OPTION");
+            op.value = l;
+            op.innerHTML = `${l} :: ${levs[l]}`;
+            sel.appendChild(op);
+        }
+
+        dv.appendChild(sel);
+        ds.appendChild(dv);
+    }
+}
+prepare();
+
+</script>
+
+
+
+
+
+
+</body>
+</html>
+
+
+

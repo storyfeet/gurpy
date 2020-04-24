@@ -6,7 +6,7 @@ NAMES = cards/names.crd
 
 default:all
 
-all: out/all_names.pdf out/all_skills.pdf out/rules.html
+all: out/all_names.pdf out/all_skills.pdf out/rules.html out/chargen.html
 	
 
 clean:
@@ -37,3 +37,6 @@ out/all_names.pdf: $(NAMES)
 
 out/rules.html:cards/* rules.tp actions/*
 	cardtemplater -t rules.tp > out/rules.html
+
+out/chargen.html:cards/* char_gen.tp.html actions/*
+	cardtemplater -t char_gen.tp.html > out/chargen.html
