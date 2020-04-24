@@ -55,3 +55,25 @@ def Item:
 .attack:1
 .range:1
 .tx:"Water Magic + 1.  Other stats apply to physical"
+
+"Suction cups":
+.cost:15
+.tx:"+2 to climbing and sucking actions"
+
+"Grapling hook":
+.cost:50
+.range:3,
+.attack:1,
+.speed:-1,
+.tx:"+2 to climbing and grabbing actions."
+
+"Shrinking potion":
+.cost:70
+.tx:"Become as small as you wish for up to 5 minutes. Make sure you are somewhere you will fit when the time runs out."
+
+"Backpack":
+.cost:60
+.tx:"Allows you to carry 4 extra items" 
+.flavour:"But obviously not backpacks"
+
+

@@ -226,3 +226,25 @@ Swimmer:
 "Dark Magic":
 .cost:[8,14,20]
 .tx:"When the magic involves Death, or evil, You can do it"
+
+"Research":
+.cost:[4,7,10]
+.tx:"Given time you can easily find out about anything"
+
+"Brewer":
+.cost:[5,10,15]
+.tx:"Skilled at making drinks and potions. Or even making potions more potent with just the right ingredients"
+
+"Builder":
+.cost:[4,8,12]
+.tx:"Skilled at making sturdy structures"
+ 
+"Steadfast":
+.cost:[5,9,13]
+.tx:"You are firm in your resolve, and cannot be easily swayed by charismatic people"
+
+"Magica":
+.cost:[10,20]
+.tx:"Learn magic more quickly than most people. While this does not gain you a dice directly, in any kind of magic you gain Double/Triple Experience points"
+
+

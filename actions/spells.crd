@@ -15,7 +15,7 @@ Focus:
 .type:Earth
 .test:3
 .range:3
-.tx:
+.tx:"Push an opponant back up to 3 spaces, leaving while putting a wall between you and them"
 
 "Dome":
 .type:Earth
@@ -27,7 +27,7 @@ Focus:
 "Levitate":
 .type:Air
 .test:4
-.tx:"Lift someone or something into the air without touching it. While active, your other moves take 2 seconds longer and you must retest at 1 every turn."
+.tx:"Lift someone or something into the air without touching them. Requires *Concentration*"
 
 
 "Mirror Image":
@@ -46,4 +46,33 @@ Focus:
 .time:6
 .test:4
 .tx:"Heal 4 health or 1 status effect. Healing"
+
+"Splash":
+.type:Water
+.time:5
+.test:Target Evade +1 
+tx:"Hit with water, Not only does it do damage, but it leaves target cold and wet"
+
+"Dowse":
+.type:Water
+.time:9
+.test:3
+.tx:"Find water nearby or bring up a spring of it. +1 difficulty if on hard rock"
+
+"Freeze":
+.type:Water
+.time:6
+.test:2 + S
+.tx:"turn water into ice. S is the size in Square metres rounded up. Higher success means larger area."
+
+"Melt":
+.type:[Fire,Water]
+.test:2+S
+.tx:"Turn ice into water. S is the size in Square metres rounded up. Higher success will affect a larger area"
+
+"Cloaking":
+.type:Air
+.test:4
+.tx:"Make someone invisible. Requires Concentration"
+
 

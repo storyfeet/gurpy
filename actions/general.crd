@@ -23,12 +23,29 @@ Lift:
 .test:"W * H"
 .tx:"Lift something, W is 1 for every 30kg and H is height in Metres"
 
-"Throw Heavy":6
+"Throw Heavy":
 .test:"W * (H + D)"
 .tx:"Throw something heavy W is 1 for every 30 kg H and D are Height and Distance in Metres"
 
 "Throw at Target" 
 .test:"D/3 - 2S"
 .tx:"Throw something at a target D is diatance in metres, S is Size of Target in square metres. 
+
+"Dig":
+.test:"2 + R"
+.tx:"Can you get through the gap, maybe maybe make it bigger. R is 2 if digging rock"
+
+"Intimidate":
+.test:"Target Resolve"
+.tx:"Strongly persuade a someone to do something, they would not normally be keen on."
+
+"Squeeze":
+.test:"P - H"
+.tx:"Squeeze through a hole that is difficult to fit through. P is player cross sectional area in square Feet, H is hole size in square feet"
+
+
+"Concentrate":
+.test:1
+.tx:"For every thing you are concentrating on you test every turn.
 
 

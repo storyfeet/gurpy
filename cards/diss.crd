@@ -27,8 +27,8 @@ Scardycat:
 
 "Bad Reputation":
 .params:"Trait"
-.gain:[4,6]
-.tx:"You must specify the trait."
+.gain:[5,9]
+.tx:"You must specify the trait. eg: Greedy / Lazy / Forgetfull / Unlucky /Unreliable"
 
 Smelly:
 .gain:[7,11]
