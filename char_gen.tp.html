@@ -5,96 +5,119 @@
 </head>
 <body>
     <h1>Gurpy Character Generator</h1>
-    <p>Cost = <span id="sp_cost">0</span></p>
-    <div id="card_space">
-    </div>
+    <table><tr>
+    <td id="card_space" style="min-width:400px">
+    </td>
+    <td id="res_space" >
+        <p>Name from <span id="name_gen"></span>.  Cost = <span id="sp_cost">0</span></p>
+        <input type="text"></input>
+    </td>
+    </tr></table>
 
 
 <script>
 
 
-let traits = [
-    {{range $k,$c := load_cards "cards/skills.crd" "cards/diss.crd" "cards/values.crd" -}}
-    {{- if gt $k 0}},{{end}}
-{
-    name:"{{$c.name}}",
-    {{if has $c.data.cost -}}cost:[{{sep "," (as_list ($c.data.cost)) }}]{{end -}}
-    {{if has $c.data.gain -}}gain:[{{sep "," (as_list ($c.data.gain)) }}]{{end}}
-}
-    {{- end}}
-];
+let traits = {{to_json (load_cards "cards/skills.crd" "cards/diss.crd" "cards/values.crd")}}
 
-let names = [
-]
+let names = {{to_json (load_cards "cards/names.crd")}}
+
 
 var char_traits = {};
+var char_cost = 0;
 
 
-function change_trait(trait,lev, cost){
+function selectCard(trait,lev, cost){
     char_traits[trait] = {
         level:lev,
         cost:cost,
     }
-    let total_cost = 0;
-    for (t in char_traits){
-        total_cost += char_traits[t].cost;
-    }
-    console.log(`cost = ${total_cost}`);
-    document.getElementById("sp_cost").innerHTML = total_cost;
+    char_cost += cost;
+    document.getElementById("sp_cost").innerHTML = char_cost;
+
+    let rsp = document.getElementById("res_space");
+    let ch = document.createElement("P");
+    ch.innerHTML = `${trait} -- ${lev} -- ${cost}`;
+    rsp.appendChild(ch);
+
+    prepareCardChoice();
 }
 
 function levels(card){
-    let res = [0];
+    let res = [];
     if (card.gain ){
-        for (let i = 0; i < card.gain.length;i++){
+        if (typeof card.gain === "number") {
+            res.push(-card.gain);
+        }else for (let i = 0; i < card.gain.length;i++){
             res.push(-card.gain[i]);
         }
     }
     if (card.cost) {
-        for (let i = 0; i < card.cost.length;i++){
+        if (typeof card.cost === "number") {
+            res.push(card.cost);
+        }else for (let i = 0; i < card.cost.length;i++){
             res.push(card.cost[i]);
         }
     }
     return res;
 }
 
-function prepare (){
-    console.log("Loaded"); 
+function prepareCardChoice(){
     let ds = document.getElementById("card_space");
-    console.log("ds = ",ds);
-    for (i = 0; i < 10; i++){
+    ds.innerHTML = "";
+    for (i = 0; i < 3; i++){
         let n = Math.floor(Math.random() * traits.length );
         let tname = traits[n].name;
-        char_traits[tname] = {
-            level:0,
-            cost:0,
-        };
+        while (char_traits[tname]){
+            n = Math.floor(Math.random() * traits.length );
+            tname = traits[n].name;
+        }
         let dv = document.createElement("DIV");
         dv.innerHTML += tname;
         let sel = document.createElement("SELECT");
-        let levs = levels(traits[n]);
-        sel.onchange = function(){
-            console.log("LOCALCHANGE");
-            change_trait(tname,this.value,levs[this.value]);
-        };
+        let levs = levels(traits[n].data);
+        let valid_count = 0;
         for(l = 0;l < levs.length; l++){
-            let op = document.createElement("OPTION");
-            op.value = l;
-            op.innerHTML = `${l} :: ${levs[l]}`;
-            sel.appendChild(op);
+            let ncost = levs[l]
+            let op = document.createElement("BUTTON");
+            op.innerHTML = `${l+1} :: ${levs[l]}`;
+            if (ncost + char_cost > 60)
+                { op.disabled = true;} else{valid_count ++}
+            let ll = l +1;
+            op.onclick = function(){
+                console.log("Button clicked ",tname);
+                selectCard(tname,ll,levs[ll-1]);
+            };
+            dv.appendChild(op);
         }
 
-        dv.appendChild(sel);
         ds.appendChild(dv);
+        if (valid_count === 0) {
+            prepareCardChoice();
+        }
+
+
     }
+}
+
+
+function prepare (){
+    //prepare name slot
+    let name_gen = document.getElementById("name_gen");
+    for( i = 0; i < 3;i++){
+        let n = Math.floor(Math.random() * names.length );
+        let x = Math.floor(Math.random() * 6 );
+        let y = Math.floor(Math.random() * 6 );
+        name_gen.innerHTML += ` "${names[n].data.dat[x][y]}" `;
+        
+    }
+
+    prepareCardChoice();
+
 }
 prepare();
 
 </script>
-
-
-
-
 
 
 </body>
