@@ -62,38 +62,67 @@ function levels(card){
     return res;
 }
 
+function buildCard(n,tname,max){
+    let dv = document.createElement("DIV");
+    dv.innerHTML += tname;
+    let sel = document.createElement("SELECT");
+    let levs = levels(traits[n].data);
+    let valid_count = 0;
+    for(l = 0;l < levs.length; l++){
+        let ncost = levs[l]
+        let op = document.createElement("BUTTON");
+        op.innerHTML = `${l+1} :: ${levs[l]}`;
+        if (ncost + char_cost > max)
+            { op.disabled = true;} else{valid_count ++}
+        let ll = l +1;
+        op.onclick = function(){
+            console.log("Button clicked ",tname);
+            selectCard(tname,ll,levs[ll-1]);
+        };
+        dv.appendChild(op);
+    }
+    if( valid_count === 0) return null;
+    return dv;
+}
+
+function prepareFinalQuestion(){
+    let ds = document.getElementById("card_space");
+    ds.innerHTML = "";
+    for (i =0; i < traits.length; i++ ){
+        if (char_traits[traits[i].name] ){
+            continue;
+        }
+        let c = buildCard(i,traits[i].name,40);
+        if (c) {
+            ds.appendChild(c);
+            i++;
+        }
+
+    }
+}
+
 function prepareCardChoice(){
     let ds = document.getElementById("card_space");
     ds.innerHTML = "";
-    for (i = 0; i < 3; i++){
+    if (Object.keys(char_traits).length === 8 ){
+        prepareFinalQuestion();
+        return;
+    }
+    if (Object.keys(char_traits).length > 8 ){
+        return;
+    }
+    let i = 0;
+    while (i < 3){
         let n = Math.floor(Math.random() * traits.length );
         let tname = traits[n].name;
         while (char_traits[tname]){
             n = Math.floor(Math.random() * traits.length );
             tname = traits[n].name;
         }
-        let dv = document.createElement("DIV");
-        dv.innerHTML += tname;
-        let sel = document.createElement("SELECT");
-        let levs = levels(traits[n].data);
-        let valid_count = 0;
-        for(l = 0;l < levs.length; l++){
-            let ncost = levs[l]
-            let op = document.createElement("BUTTON");
-            op.innerHTML = `${l+1} :: ${levs[l]}`;
-            if (ncost + char_cost > 60)
-                { op.disabled = true;} else{valid_count ++}
-            let ll = l +1;
-            op.onclick = function(){
-                console.log("Button clicked ",tname);
-                selectCard(tname,ll,levs[ll-1]);
-            };
-            dv.appendChild(op);
-        }
-
-        ds.appendChild(dv);
-        if (valid_count === 0) {
-            prepareCardChoice();
+        let c = buildCard(n,tname,60);
+        if (c) {
+            ds.appendChild(c);
+            i++;
         }
 
 

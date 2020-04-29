@@ -1,25 +1,91 @@
-"Abenamee Acer":
-.level:"41"
-.attrs:[ Parry,Primitive,"Wealth(2)",
-        "Bad Reputation(Hoarder,2)",
-        "Threat Aware(3)",
-        "Second Language(French)",
-        "Good Reputation(Strong,3)",
-        "Night Vision"
-        "Medic(3)"
-        ]
+"Caphri Thogu":
+.tx:"Living alone in a house he built himself, Caphri throws his weight around using Earth Magic. He will not take kindly to intrusions at his house, but he will always welcome someone he believes. He lost his leg in a building accident and will happily tell the whole gruesome story" 
+.traits:["Fire Magic * 3",
+    "Earth Magic * 2",
+    "Weapons Expert * 2",
+    "Bad Reputation(Angry) *2",
+    "Combat Reflexes * 2",
+    "Value Truth * 1",
+    "Quick Thinking * 3",
+    "Missing Left Leg",
+    "Builder * 3"]
 
-"Tredager Fijir":
-.level:47
-.costs:"10 + 10 + 10 + 9 +8 + 6 + 8 +6 -20"
-.attrs:[ "Tailor(3)",
-    "Fearless(1)",
-    "Acute Sense(Touch,3)",
-    "Shield Block (3)",
-    "Strategist(1)",
-    "Walking Map(1)",
-    "Wealth (1)",
-    "Killer Right Hook(1)",
-    "Clumsy(3)"
-    ]
+"Taquippee Tocl":
+.tx:"Wherever there is some kind of trouble expect to find Taquippee there. He or at the wells outside the city where he is pining for his true love #<TODO>"
+.traits:["Trickster * 3",
+    "Flexible * 3",
+    "True Love",
+    "Animal Empathy * 3",
+    "Water Magic * 3",
+    "Dodge * 3",
+    "Actor * 3",
+    "Rebelious",
+    "Clumsy * 2"]
+
+"Lady Bettie Bagduff":
+.tx:"Lives in"
+.traits:["Social Standing * 2 (Lady)",
+        "Steadfast * 2",
+        "Value Power", 
+        "Walking Map * 2",
+        "Srong * 2",
+        "Bad Reputation for Stealing * 2",
+        "Compulsion * 2",
+        "Came prepared * 3",
+        "Swordsman" ]
+.info:"Whenever she sees an animal of any kind, pick it up"
+
+
+"Gotiahti Petit":
+.tx:"Having move to #__ from super small town france gotiahti is taking time to settle in. He has managed to make friends with #Taqueepee but most other people seem to struggle to talk to him"
+.traits:["Primative","Night Vision",
+        "Pick Pocket * 2",
+        "Evade * 2",
+        "Dodge",
+        "Expert in Herbs * 2",
+        "Strategist",
+        "Catfall * 2",
+        "Scardycay * 2"]
+
+
+
+
+"Drift Babini":
+.tx:"Spends most of his time inventing at the tower at the top of #Lady Bettie's mansion, his greatest desire is to build a flying machine so that non magic people can experience the thrill of riding through the skies"
+.traits:["Tech Wizard * 2",
+   "Air Magic * 3",
+   "Pilot * 3",
+   "Value Discovery",
+   "Value Your Promise",
+   "Steadfast",
+   "Shield Block * 2",
+   "Swordsman",
+   "Smelly"]
+
+"Sid Lasage":
+.tx:"Owns a dairy farm and goes to visit the animals every day. He loves running and every day runs around the whole town collecting every piece of gossip he can."
+.traits:["Social Standing",
+    "Killer Right Hook * 3",
+    "Night Vision",
+    "Value Friendship",
+    "Strong * 2",
+    "Compulsion",
+    "Acute Sense of hearing * 3",
+    "Water Magic",
+    "Clumsy"]
+.info:"Whenver he hears anything new he must investigate until he know for sure."
+
+
+"Bobafee Bybye":
+.tx:"An Ex Military guy who has come to this #town to calm down, but things are never calm. His face is covered in scars."
+.traits:[ "Parry",
+   "Weapons Expert * 3",
+   "Quick thinking * 3",
+   "Value Discovery",
+   "Ugly * 2",
+   "Short Sighted * 2",
+   "Strategist * 3",
+   "Stealth * 1",
+   "Second Language - French"]
+
 

@@ -1,0 +1,18 @@
+{{$w := .w}}
+{{$h := .h}}
+<rect {{xywh 0 0 .w .h}} {{fl_stk "white" "black" (mul .w 0.02)}} />
+<text {{xy (mul .w 0.1) (mul .h 0.12)}} {{font (mul .w 0.06) "Arial"}}>{{.name}}</text>
+{{$tx_lines := wrap .data.tx 55 }}
+{{$tx_lh := mul .035 $w}}
+{{$tx_start := mul $h 0.2}}
+{{$trt_start := add $tx_start $tx_lh (mul $tx_lh (safe_len $tx_lines))}}
+{{range $k,$v := $tx_lines}}
+<text {{xy (mul $w 0.06) (add $tx_start (mul $tx_lh $k))}}{{font $tx_lh "Arial"}}>{{xml_es $v}}</text>
+{{end}}
+{{range $k,$v := .data.traits}}
+    {{if eq (mod $k 2) 0 }}
+        <text {{xy (mul $w 0.06) (add $trt_start (mul $tx_lh (idiv $k 2)))}}{{font $tx_lh "Arial"}}>{{xml_es $v}}</text>
+    {{else}}
+        <text {{xy (mul $w 0.94) (add $trt_start (mul $tx_lh (idiv $k 2)))}}{{font $tx_lh "Arial"}} text-anchor="end">{{xml_es $v}}</text>
+    {{end}}
+{{end}}
