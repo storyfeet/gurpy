@@ -32,7 +32,7 @@ Charge:
 
 Medicine:
 .time:6
-.test:2
+.test:0
 .tx:"Apply a potion to yourself or an adjacent target"
 
 Throw rock:
@@ -41,10 +41,6 @@ Throw rock:
 .attack:-1
 .tx:"If the target is alive roll against evade, other
 
-Inspect:
-.time:10
-.test:"2"
-.tx:"The GM rolls the test for you, and tells you what you notice."
 
 
 

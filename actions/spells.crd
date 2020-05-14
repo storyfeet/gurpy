@@ -18,7 +18,7 @@ Focus:
 .type:Earth
 .test:3
 .range:3
-.tx:"Push an opponant back up to 3 spaces, leaving while putting a wall between you and them"
+.tx:"Push an opponant back up to 3 spaces, while putting a wall between you and them"
 
 "Dome":
 .type:Earth

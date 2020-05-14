@@ -7,15 +7,23 @@
 
 {{markdown (exec "cat" "rules.md")}}
 
+
 <h2>Traits</h2>
 
 {{range $k,$c := sort_on "name" (load_cards "cards/skills.crd")}}
+<h3>{{$c.name}}{{if has $c.data.params}} ( {{sep " / " (as_list $c.data.params)}} ){{end}} -- {{sep " - " (as_list $c.data.cost)}} </h3>
+<p>{{$c.data.tx}}</p>
+{{if $c.data.flavour}}<p><i>{{$c.data.flavour}}</i></p>{{end}}
+{{end}}
+
+
+<h2>Actions</h2>
+{{range $k,$c := sort_on "name" (load_cards "actions/general.crd")}}
 <h3>{{$c.name}}{{if has $c.data.params}} ( {{sep " / " (as_list $c.data.params)}} ){{end}}</h3>
 <p>{{$c.data.tx}}</p>
 {{if $c.data.flavour}}<p><i>{{$c.data.flavour}}</i></p>{{end}}
-<p>{{sep " / " (as_list $c.data.cost) -}}</p>
+<p>Test = {{$c.data.test}}</p>
 {{end}}
-
 
 
 

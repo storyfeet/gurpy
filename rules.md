@@ -24,7 +24,7 @@ Rolls are :
 
 Add together the total points.
 Less than the required result is a failure.
-zero will harml you in some way.
+zero will harm you in some way.
 Negative score is Crit fail. This could go very bad.
 Score above passnum is success.
 
@@ -67,5 +67,4 @@ Resolving an Attack:
     1 damage per level above.
     If the attackers rolls a crit fail on either point. The attacker takes 1 damage."
 
-Movement
 
