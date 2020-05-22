@@ -22,7 +22,7 @@ def Item:
 .tx:"Expend to gain 3 dice for a heal action"
 
 "Speed Potion":
-.cost:"20"
+.cost:20
 .multibuy:true
 .tx:"Everything takes half the time, for the rest of an encounter"
 
@@ -36,7 +36,7 @@ def Item:
 
 "Hand Cuffs":
 .cost:10
-.tx:Restrain an opponent 
+.tx:"Restrain an opponent"
 
 "Fire Staff":
 .cost:100
@@ -62,9 +62,9 @@ def Item:
 
 "Grapling hook":
 .cost:50
-.range:3,
-.attack:1,
-.speed:-1,
+.range:3
+.attack:1
+.speed:-1
 .tx:"+2 to climbing and grabbing actions."
 
 "Shrinking potion":
@@ -79,4 +79,7 @@ def Item:
 "Invisible Arrow":
 .cost:10
 .multibuy:true
+.tx:"People never see this arrow coming."
+
+
 

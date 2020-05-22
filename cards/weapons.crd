@@ -2,7 +2,7 @@ def Weapon:
 .type:weapon
 .cost:10
 .range:0
-.attack:0,
+.attack:0
 .accuracy:0
 .speed:0
 
@@ -10,11 +10,13 @@ def Weapon:
 .cost:40
 .speed:1
 .attack:1
+.tx:"Stabby stabby"
 
 "Short Sword":
 .cost:50
 .range:1
 .attack:2
+.tx:"Needs a good swing"
 
 "Wooden Shield":
 .cost:25
@@ -28,8 +30,9 @@ or throw up to range 8 with attack +2"
 "Broad Sword":
 .cost:60
 .speed:-2
-.attack:+3
+.attack:3
 .accuracy:-1
+.tx:"A heavy swinging sword"
 
 "Crossbow":
 .cost:60

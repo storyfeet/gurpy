@@ -1,0 +1,31 @@
+{{$w := .w -}}
+{{$h := .h -}}
+{{$tit_size:= mul .w 0.07 -}}
+{{$bar_y := mul .h 0.18 -}}
+{{$sy := mul .h 0.3 -}}
+{{$sx := mul .w 0.5 -}}
+{{$lh := mul .w 0.05 -}}
+{{$font := (font $lh "Arial") -}}
+<rect {{xywh 0 0 .w .h}} {{fl_stk "white" "black" (mul .w 0.02)}} />
+<text {{xy 30 (mul .h 0.15)}} {{font $tit_size "Arial" -}} font-weight="bold" vertical-align="text-top">{{.name}}</text>
+<line {{xy12 (mul 0.03 .w) ($bar_y) (mul 0.97 .w) ($bar_y)}} {{fl_stk "fuchsia" "fuchsia" (mul .w 0.01)}} stroke-linecap="round"/>
+{{$tx_lines := wrap .data.tx 55 }}
+{{$tx_lh := mul .035 $w}}
+{{$tx_start := mul $h 0.2}}
+{{$trt_start := add $tx_start $tx_lh (mul $tx_lh (safe_len $tx_lines))}}
+
+{{range $k, $v := wrap .data.tx 38}}
+    <text x="{{$sx}}px" y="{{add $sy (mul $lh $k)}}px" {{$font -}} text-anchor="middle">{{xml_es $v}}</text>
+{{end}}
+
+{{$f_lh := mul .w  0.04 -}}
+{{$f_sy := mul .h 0.75 -}}
+{{if .data.flavour}}{{range $k,$v := wrap .data.flavour 45}}
+    <text x="{{$sx}}px" y="{{add $f_sy (mul $f_lh $k)}}px" {{font $f_lh "Arial" -}} text-anchor="middle" font-style="italic">{{xml_es $v}}</text>
+{{end}}{{end}}
+
+{{$stat_line := printf "cost:£%d   attack:%d" 
+    (first .data.cost 50) 
+    (first .data.attack 0) -}}
+<text {{xy (mul .w 0.05) (mul .h 0.9) "px"}} {{font $tx_lh "Arial"}}>{{$stat_line}}</text>
+

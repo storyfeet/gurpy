@@ -23,7 +23,7 @@
     "Clumsy * 2"]
 
 "Lady Bettie Bagduff":
-.tx:"Lives in"
+.tx:"Lives in "
 .traits:["Social Standing * 2 (Lady)",
         "Steadfast * 2",
         "Value Power", 
