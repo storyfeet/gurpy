@@ -24,21 +24,16 @@
     <text x="{{$sx}}px" y="{{add $f_sy (mul $f_lh $k)}}px" {{font $f_lh "Arial" -}} text-anchor="middle" font-style="italic">{{xml_es $v}}</text>
 {{end}}{{end}}
 
-{{$p_step := mul .w 0.1}}
-{{$pass_pos := sub .w $p_step}}
-{{if (has .data.passive)}}
-<rect {{xywh $pass_pos (mul .h 0.05) (mul .w 0.06) (mul .w 0.06)}} {{fl_stk "orange" "black" 1}} />
+{{- /* Squares area */ -}}
+
+{{$p_step := mul $w 0.1}}
+{{$squares := to_list (b_sel (has .data.combat) "red" .nil) (b_sel (has .data.passive) "orange" .nil) }}
+{{range $k,$v := $squares -}}
+    {{$pass_pos := sub (mul $w 0.9) (mul $p_step $k)}}
+    <rect {{xywh $pass_pos (mul $h 0.05) (mul $w 0.06) (mul $w 0.06)}} {{fl_stk $v "black" 1}} />
 {{end}}
 
-{{$combat_pos := b_sel .data.passive (sub $pass_pos $p_step) ($pass_pos)}}
-{{if (has .data.combat)}}
-<rect {{xywh $combat_pos (mul .h 0.05) (mul .w 0.06) (mul .w 0.06)}} {{fl_stk "red" "black" 1}} />
-{{end}}
-
-{{$avg_pos := b_sel .data.combat (sub $combat_pos $p_step) $combat_pos}}
-{{if (has .data.avg)}}
-<rect {{xywh $avg_pos (mul .h 0.05) (mul .w 0.06) (mul .w 0.06)}} {{fl_stk "fuchsia" "black" 1}} />
-{{end}}
+{{- /* Stats */ -}}
 
 {{if .data.cost}}
 <text x="20px" y="{{mul 0.9 .h}}px" {{$font}}>{{xml_es "cost = " (sep " / " .data.cost) }}</text>

@@ -1,47 +1,51 @@
 def Weapon:
 .type:weapon
 .cost:10
-.range:0
-.attack:0
-.accuracy:0
-.speed:0
+.size:1
+.combat:true
 
-"Dagger":
+2*"Dagger":
 .cost:40
 .speed:1
 .attack:1
 .tx:"Stabby stabby"
 
-"Short Sword":
+2*"Short Sword":
 .cost:50
 .range:1
 .attack:2
 .tx:"Needs a good swing"
+.size:2
 
-"Wooden Shield":
+2*"Wooden Shield":
 .cost:25
 .tx:"+1 defence"
+.size:3
 
-"Spear":
+2*"Spear":
 .cost:40
 .tx:"Melee : Range 2 - 3 for melee, Attack +1,
 or throw up to range 8 with attack +2"
+.size:2
 
-"Broad Sword":
+
+2*"Broad Sword":
 .cost:60
 .speed:-2
 .attack:3
 .accuracy:-1
 .tx:"A heavy swinging sword"
+.size:3
 
-"Crossbow":
+2*"Crossbow":
 .cost:60
 .range:8
 .attack:1
 .accuracy:1
 .tx:"Takes an action to reload"
+.size:3
 
-"Slingshot":
+2*"Slingshot":
 .cost:20
 .range:6
 .attack:1

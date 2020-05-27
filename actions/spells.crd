@@ -23,7 +23,7 @@ Focus:
 "Dome":
 .type:Earth
 .time:8
-.test:3 + N
+.test:"3 + N"
 .tx:"Build a solid dome that protects you and anyone else you cover with it. N is the radius of the dome in squares"
 
 
@@ -40,7 +40,7 @@ Focus:
 
 "Guide Arrow":
 .type:Air
-.time:?
+.time:"?"
 .test:3
 .tx:"Double the accuracy of chosen player until your next turn"
 
@@ -53,8 +53,8 @@ Focus:
 "Splash":
 .type:Water
 .time:5
-.test:Target Evade +1 
-tx:"Hit with water, Not only does it do damage, but it leaves target cold and wet"
+.test:"Target Evade +1"
+.tx:"Hit with water, Not only does it do damage, but it leaves target cold and wet" 
 
 "Dowse":
 .type:Water
@@ -65,12 +65,12 @@ tx:"Hit with water, Not only does it do damage, but it leaves target cold and we
 "Freeze":
 .type:Water
 .time:6
-.test:2 + S
+.test:"2 + S"
 .tx:"turn water into ice. S is the size in Square metres rounded up. Higher success means larger area."
 
 "Melt":
 .type:[Fire,Water]
-.test:2+S
+.test:"2+S"
 .tx:"Turn ice into water. S is the size in Square metres rounded up. Higher success will affect a larger area"
 
 "Cloaking":

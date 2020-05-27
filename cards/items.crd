@@ -1,4 +1,5 @@
 def Item:
+.size:1
 
 "Magnifying Glass":
 .cost:15
@@ -7,30 +8,36 @@ def Item:
 "Telescope":
 .cost:15
 .tx:"Allows you to scope out far away places easily"
+.size:2
 
-"Thieves Tools":
+2*"Thieves Tools":
 .cost:25
 .tx:"Helps with opening doors, windows and cases"
+.size:2
 
 "Spanner Set":
 .cost:20
 .tx:"Fixing things is easier when you can twist them"
+.size:2
 
-"Healing Potion":
+6*"Healing Potion":
 .cost:20
 .multibuy:true
+.basic:true
 .tx:"Expend to gain 3 dice for a heal action"
 
-"Speed Potion":
+6*"Speed Potion":
 .cost:20
 .multibuy:true
+.basic:true
 .tx:"Everything takes half the time, for the rest of an encounter"
 
 "Fishing Rod":
 .cost:10
 .tx:"Great when you're by the sea"
+.size:2
 
-"Drinking Bottle":
+2*"Drinking Bottle":
 .cost:15
 .tx:"Rest up better quicker"
 
@@ -41,45 +48,50 @@ def Item:
 "Fire Staff":
 .cost:100
 .attack:1
-.range:1
+.range:2
 .tx:"Fire Magic + 1.  Other stats apply to physical"
+.size:2
 
 "Water Staff":
 .cost:100
 .attack:1
-.range:1
+.range:2
 .tx:"Water Magic + 1.  Other stats apply to physical"
+.size:2
 
 "Air Staff":
 .cost:100
 .attack:1
-.range:1
-.tx:"Water Magic + 1.  Other stats apply to physical"
+.range:2
+.tx:"Air Magic + 1.  Other stats apply to physical"
+.size:2
 
 "Suction cups":
 .cost:15
 .tx:"+2 to climbing and sucking actions"
 
-"Grapling hook":
+2*"Grapling hook":
 .cost:50
 .range:3
 .attack:1
 .speed:-1
 .tx:"+2 to climbing and grabbing actions."
 
-"Shrinking potion":
+3*"Shrinking potion":
 .cost:70
 .tx:"Become as small as you wish for up to 5 minutes. Make sure you are somewhere you will fit when the time runs out."
 
-"Backpack":
-.cost:60
+2*"Backpack":
+.cost:70
 .tx:"Allows you to carry 4 extra items" 
 .flavour:"But obviously not backpacks"
+.size:0
 
 "Invisible Arrow":
 .cost:10
 .multibuy:true
 .tx:"People never see this arrow coming."
+.size:"0.5"
 
 
 

@@ -14,6 +14,7 @@
 {{$tx_start := mul $h 0.2}}
 {{$trt_start := add $tx_start $tx_lh (mul $tx_lh (safe_len $tx_lines))}}
 
+
 {{range $k, $v := wrap .data.tx 38}}
     <text x="{{$sx}}px" y="{{add $sy (mul $lh $k)}}px" {{$font -}} text-anchor="middle">{{xml_es $v}}</text>
 {{end}}
@@ -24,8 +25,18 @@
     <text x="{{$sx}}px" y="{{add $f_sy (mul $f_lh $k)}}px" {{font $f_lh "Arial" -}} text-anchor="middle" font-style="italic">{{xml_es $v}}</text>
 {{end}}{{end}}
 
-{{$stat_line := printf "cost:£%d   attack:%d" 
-    (first .data.cost 50) 
-    (first .data.attack 0) -}}
-<text {{xy (mul .w 0.05) (mul .h 0.9) "px"}} {{font $tx_lh "Arial"}}>{{$stat_line}}</text>
+{{$arr:= to_list (b_sel (has .data.cost) (ccat "Cost:£" .data.cost) .nil) (b_sel (has .data.speed) (ccat "Speed:" .data.speed) .nil) (b_sel (has .data.range) (ccat "Range:" .data.range) .nil) (b_sel (has .data.attack) (ccat "Attack:" .data.attack) .nil) (b_sel (has .data.accuracy) (ccat "Accuracy:" .data.accuracy) .nil) (b_sel (not_null .data.multibuy) "Multibuy:" .nil) (b_sel (has .data.size) (ccat "Size:" .data.size) .nil)  }}
+{{range $n ,$s := $arr}}
+    {{$offx := add (mul $w 0.1) (mul $w 0.8 (mod $n 2 ))}}
+    {{$offy := sub (mul $h 0.9) (mul $lh (idiv $n 2))}}
+    <text {{xy $offx $offy}} {{$font}} {{if eq (mod $n 2) 1}} text-anchor="end"{{end}}>{{$s}}</text>
+{{end}}
 
+{{- /* Squares area */ -}}
+
+{{$p_step := mul $w 0.1}}
+{{$squares := to_list (b_sel (has .data.combat) "red" .nil) (b_sel (has .data.basic) "fuchsia" .nil) }}
+{{range $k,$v := $squares -}}
+    {{$pass_pos := sub (mul $w 0.9) (mul $p_step $k)}}
+    <rect {{xywh $pass_pos (mul $h 0.05) (mul $w 0.06) (mul $w 0.06)}} {{fl_stk $v "black" 1}} />
+{{end}}

@@ -8,7 +8,9 @@
 {{markdown (exec "cat" "rules.md")}}
 
 
-<h2>Traits</h2>
+<h2>Skills</h2>
+
+<p>Abilities that your character has. Each has a cost to include on your character.</p>
 
 {{range $k,$c := sort_on "name" (load_cards "cards/skills.crd")}}
 <h3>{{$c.name}}{{if has $c.data.params}} ( {{sep " / " (as_list $c.data.params)}} ){{end}} -- {{sep " - " (as_list $c.data.cost)}} </h3>
@@ -16,6 +18,25 @@
 {{if $c.data.flavour}}<p><i>{{$c.data.flavour}}</i></p>{{end}}
 {{end}}
 
+<h2>Traits</h2>
+
+<p>Defining Characteristics for your character. These are generally negative, taking on more of them will make the story more interesting. You gain dice when these affect how you act.</p>
+
+{{range $k,$c := sort_on "name" (load_cards "cards/diss.crd")}}
+<h3>{{$c.name}}{{if has $c.data.params}} ( {{sep " , " (as_list $c.data.params)}} ){{end}} -- {{sep " , " (to_flat_list "-" $c.data.gain)}} </h3>
+<p>{{$c.data.tx}}</p>
+{{if $c.data.flavour}}<p><i>{{$c.data.flavour}}</i></p>{{end}}
+{{end}}
+
+<h2>Values</h2>
+
+<p>What your character values will affect how they behave. Each time this does, you gain a pool dice.</p>
+
+{{range $k,$c := sort_on "name" (load_cards "cards/values.crd")}}
+<h3>{{$c.name}}{{if has $c.data.params}} ( {{sep " , " (as_list $c.data.params)}} ){{end}} -- {{sep " , " (to_flat_list "-" $c.data.gain)}} </h3>
+<p>{{$c.data.tx}}</p>
+{{if $c.data.flavour}}<p><i>{{$c.data.flavour}}</i></p>{{end}}
+{{end}}
 
 <h2>Actions</h2>
 {{range $k,$c := sort_on "name" (load_cards "actions/general.crd")}}
@@ -25,6 +46,14 @@
 <p>Test = {{$c.data.test}}</p>
 {{end}}
 
+<h2>Spell Actions</h2>
+{{range $k,$c := sort_on "name" (load_cards "actions/spells.crd")}}
+<h3>{{$c.name}}{{if has $c.data.params}} ( {{sep " / " (as_list $c.data.params)}} ){{end}}</h3>
+<p>{{if $c.data.type}}[{{sep "," $c.data.type}}] -- {{end}}
+{{$c.data.tx}}</p>
+{{if $c.data.flavour}}<p><i>{{$c.data.flavour}}</i></p>{{end}}
+<p>Test = {{$c.data.test}}</p>
+{{end}}
 
 
 </html>
